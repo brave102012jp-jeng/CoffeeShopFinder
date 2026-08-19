@@ -19,16 +19,29 @@ function tagCategoryOf(tag){return TAG_CATEGORY_LOOKUP[tag]||"service";}
 function tagPillHTML(tag){return `<span class="tag-pill tag-cat-${tagCategoryOf(tag)}">#${esc(tag)}</span>`;}
 
 async function loadExternalConfig(){
-  const [shopsData, tagTaxonomy, tastingFields] = await Promise.all([
-    fetch("data/shops.json").then(r=>r.json()).catch(()=>[]),
-    fetch("data/tag-taxonomy.json").then(r=>r.json()).catch(()=>({})),
-    fetch("skills/tasting-record-form/assets/tasting-form-fields.json").then(r=>r.json()).catch(()=>({fields:[]}))
-  ]);
-  DEFAULT_SHOPS=shopsData;
-  TAG_CATEGORIES=tagTaxonomy;
-  buildTagLookup();
-  TASTING_CONFIG=tastingFields;
-  RADAR_AXES=TastingForm.deriveRadarAxes(TASTING_CONFIG);
+  try{
+    const [shopsData, tagTaxonomy, tastingFields] = await Promise.all([
+      fetch("data/shops.json").then(r=>r.ok?r.json():[]).catch(()=>[]),
+      fetch("data/tag-taxonomy.json").then(r=>r.ok?r.json():{}).catch(()=>({})),
+      fetch("skills/tasting-record-form/assets/tasting-form-fields.json").then(r=>r.ok?r.json():{fields:[]}).catch(()=>({fields:[]}))
+    ]);
+    DEFAULT_SHOPS=Array.isArray(shopsData)?shopsData:[];
+    TAG_CATEGORIES=tagTaxonomy||{};
+    buildTagLookup();
+    TASTING_CONFIG=tastingFields||{fields:[]};
+  }catch(e){
+    console.error("[coffee-explorer] loadExternalConfig failed, using empty defaults so the page can still render:",e);
+    DEFAULT_SHOPS=DEFAULT_SHOPS||[];
+    TAG_CATEGORIES=TAG_CATEGORIES||{};
+    buildTagLookup();
+    TASTING_CONFIG=TASTING_CONFIG||{fields:[]};
+  }
+  try{
+    RADAR_AXES=(typeof TastingForm!=="undefined")?TastingForm.deriveRadarAxes(TASTING_CONFIG):[];
+  }catch(e){
+    console.error("[coffee-explorer] TastingForm not available (check that skills/tasting-record-form/assets/tasting-record-form.js loaded correctly — this is usually a 404 from a broken folder path):",e);
+    RADAR_AXES=[];
+  }
 }
 let DEFAULT_SHOPS=[];
 let SHOPS=[],statuses={},reviews={},activeTags=new Set(),weekStart=startOfWeek(new Date()),selectedDayIdx=null,viewMode="filtered",randomPicks=[],openReviewsExpanded=new Set(),expandedCards=new Set(),ridCounter=Date.now();
@@ -118,7 +131,9 @@ async function storageSet(value){
   if(hasClaudeStorage){ return await window.storage.set("user-data", value, false); }
   try{ localStorage.setItem(STORAGE_KEY, value); }catch(e){}
 }
-async function loadState(){await loadExternalConfig();try{const r=await storageGet();if(r&&r.value){const p=JSON.parse(r.value);statuses=p.statuses||{};reviews=p.reviews||{};SHOPS=p.shopOverrides&&p.shopOverrides.length?p.shopOverrides:DEFAULT_SHOPS;ridCounter=p.ridCounter||Date.now();}else SHOPS=DEFAULT_SHOPS;}catch(e){SHOPS=DEFAULT_SHOPS;}
+async function loadState(){
+  try{ await loadExternalConfig(); }catch(e){ console.error("[coffee-explorer] loadExternalConfig threw unexpectedly (should be unreachable, but guarding anyway):",e); }
+  try{const r=await storageGet();if(r&&r.value){const p=JSON.parse(r.value);statuses=p.statuses||{};reviews=p.reviews||{};SHOPS=p.shopOverrides&&p.shopOverrides.length?p.shopOverrides:DEFAULT_SHOPS;ridCounter=p.ridCounter||Date.now();}else SHOPS=DEFAULT_SHOPS;}catch(e){SHOPS=DEFAULT_SHOPS;}
   // self-heal: fix stale "visited" flags left over from earlier data/schema versions
   // where a shop was marked visited but has no actual saved review record
   let healed=false;
@@ -735,6 +750,28 @@ function setupGanttDragScroll(){
   wrap.addEventListener("pointercancel",endDrag);
   wrap.addEventListener("pointerleave",function(e){ if(drag&&!drag.captured) drag=null; });
 }
-async function init(){await loadState();tickClock();setInterval(tickClock,30000);viewMode="filtered";requestGeolocation();setupGanttDragScroll();renderAll();}
+function showFatalErrorBanner(err){
+  try{
+    const el=document.createElement("div");
+    el.style.cssText="position:fixed;top:0;left:0;right:0;background:#B4482F;color:#fff;padding:12px 16px;font-family:monospace;font-size:12.5px;z-index:9999;white-space:pre-wrap;";
+    el.textContent="⚠️ 網站載入時發生錯誤，部分功能可能無法使用。請打開瀏覽器主控台（F12 → Console）查看詳細錯誤，通常是某個檔案路徑 404（例如 skills/ 或 data/ 資料夾結構跑掉）。錯誤訊息："+(err&&err.message?err.message:String(err));
+    document.body.prepend(el);
+  }catch(e){}
+}
+async function init(){
+  try{
+    await loadState();
+  }catch(e){
+    console.error("[coffee-explorer] init() failed during loadState():",e);
+    showFatalErrorBanner(e);
+  }
+  // 不管上面資料載入成不成功，時鐘跟基本互動都要能動，讓使用者至少看得出網站「活著」
+  tickClock();
+  setInterval(tickClock,30000);
+  viewMode="filtered";
+  try{ requestGeolocation(); }catch(e){ console.error(e); }
+  try{ setupGanttDragScroll(); }catch(e){ console.error(e); }
+  try{ renderAll(); }catch(e){ console.error("[coffee-explorer] renderAll() failed:",e); showFatalErrorBanner(e); }
+}
 init();
 })();
