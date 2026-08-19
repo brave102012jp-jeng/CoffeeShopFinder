@@ -21,9 +21,9 @@ function tagPillHTML(tag){return `<span class="tag-pill tag-cat-${tagCategoryOf(
 async function loadExternalConfig(){
   try{
     const [shopsData, tagTaxonomy, tastingFields] = await Promise.all([
-      fetch("data/shops.json").then(r=>r.ok?r.json():[]).catch(()=>[]),
-      fetch("data/tag-taxonomy.json").then(r=>r.ok?r.json():{}).catch(()=>({})),
-      fetch("skills/tasting-record-form/assets/tasting-form-fields.json").then(r=>r.ok?r.json():{fields:[]}).catch(()=>({fields:[]}))
+      fetch("data/shops.json").then(r=>{if(!r.ok)console.error("[coffee-explorer] data/shops.json 載入失敗（HTTP "+r.status+"），店家資料會是空的。請確認這個檔案有正確上傳到 GitHub。");return r.ok?r.json():[];}).catch(e=>{console.error("[coffee-explorer] data/shops.json fetch 失敗：",e);return [];}),
+      fetch("data/tag-taxonomy.json").then(r=>{if(!r.ok)console.error("[coffee-explorer] data/tag-taxonomy.json 載入失敗（HTTP "+r.status+"），標籤分類會是空的。");return r.ok?r.json():{};}).catch(e=>{console.error("[coffee-explorer] data/tag-taxonomy.json fetch 失敗：",e);return {};}),
+      fetch("skills/tasting-record-form/assets/tasting-form-fields.json").then(r=>{if(!r.ok)console.error("[coffee-explorer] skills/tasting-record-form/assets/tasting-form-fields.json 載入失敗（HTTP "+r.status+"），品飲紀錄表單欄位（豆名/處理法/焙度/六軸評分）會全部消失、只剩風味輪。請確認 skills/tasting-record-form/assets/ 這個路徑底下的檔案有正確上傳到 GitHub（注意：路徑跟檔名大小寫要完全一致）。");return r.ok?r.json():{fields:[]};}).catch(e=>{console.error("[coffee-explorer] tasting-form-fields.json fetch 失敗：",e);return {fields:[]};})
     ]);
     DEFAULT_SHOPS=Array.isArray(shopsData)?shopsData:[];
     TAG_CATEGORIES=tagTaxonomy||{};
@@ -41,6 +41,9 @@ async function loadExternalConfig(){
   }catch(e){
     console.error("[coffee-explorer] TastingForm not available (check that skills/tasting-record-form/assets/tasting-record-form.js loaded correctly — this is usually a 404 from a broken folder path):",e);
     RADAR_AXES=[];
+  }
+  if(!TASTING_CONFIG.fields||!TASTING_CONFIG.fields.length){
+    console.warn("[coffee-explorer] ⚠️ TASTING_CONFIG 目前是空的——品飲紀錄表單裡除了風味輪以外的欄位（豆名/處理法/焙度/香氣/Body/苦味/酸質/甜感/餘韻/結論）都不會出現。這幾乎一定是 skills/tasting-record-form/assets/tasting-form-fields.json 沒有正確上傳／路徑錯誤造成的，請直接在瀏覽器打開該檔案的網址確認能不能看到 JSON 內容。");
   }
 }
 let DEFAULT_SHOPS=[];
@@ -494,17 +497,24 @@ function renderModal(){const root=document.getElementById("modalRoot");if(!modal
   flavorWheelInstances={};
   modalState.coffees.forEach(c=>initFlavorWheel(c));
 }
-function coffeeBlockHTML(c,i){return`<div class="coffee-block" data-coffee="${c.uid}">
+function coffeeBlockHTML(c,i){
+  const fields=TASTING_CONFIG.fields||[];
+  const firstRadarIdx=fields.findIndex(f=>f.type==="radar-axis");
+  const beforeFields=firstRadarIdx===-1?fields:fields.slice(0,firstRadarIdx);
+  const afterFields=firstRadarIdx===-1?[]:fields.slice(firstRadarIdx);
+  return`<div class="coffee-block" data-coffee="${c.uid}">
   <div class="coffee-head">
     <b>第 ${i+1} 杯</b>
     <div style="display:flex;align-items:center;gap:8px;">
       ${i>0?`<button class="remove-btn" data-remove-coffee="${c.uid}">移除</button>`:''}
     </div>
   </div>
-  <div class="coffee-radar-mini" data-radar-for="${c.uid}" style="float:right;margin-left:12px;">${radarSVG(c,120)}</div>
-  ${TastingForm.fieldsHTML(TASTING_CONFIG,c)}
+  <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start;">
+    <div style="flex:1;min-width:220px;">${TastingForm.fieldsHTML({fields:beforeFields},c)}</div>
+    <div class="coffee-radar-mini" data-radar-for="${c.uid}" style="flex-shrink:0;">${radarSVG(c,120)}</div>
+  </div>
   ${flavorWheelHTML(c)}
-  <div style="clear:both;"></div>
+  ${TastingForm.fieldsHTML({fields:afterFields},c)}
 </div>`;}
 function snackBlockHTML(s,i){return`<div class="snack-block" data-snack="${s.uid}"><div class="coffee-head"><b>點心 ${i+1}</b><button class="remove-btn" data-remove-snack="${s.uid}">移除</button></div><div class="field"><label>點心名稱</label><input type="text" data-sfield="name" value="${esc(s.name)}"/></div><div class="field"><label>品嘗描述</label><input type="text" data-sfield="tasteNote" value="${esc(s.tasteNote)}"/></div><div class="field"><label>搭配狀況</label><input type="text" data-sfield="pairing" value="${esc(s.pairing)}"/></div></div>`;}
 function syncModalFromDOM(){if(!modalState)return;const dt=document.getElementById("visitDate");if(dt)modalState.visitDate=dt.value;const on=document.getElementById("overallNote");if(on)modalState.overallNote=on.value;document.querySelectorAll(".coffee-block").forEach(b=>{const c=modalState.coffees.find(x=>x.uid===b.getAttribute("data-coffee"));if(!c)return;b.querySelectorAll("[data-field]").forEach(inp=>{c[inp.getAttribute("data-field")]=inp.value;});});document.querySelectorAll(".snack-block").forEach(b=>{const s=modalState.snacks.find(x=>x.uid===b.getAttribute("data-snack"));if(!s)return;b.querySelectorAll("[data-sfield]").forEach(inp=>{s[inp.getAttribute("data-sfield")]=inp.value;});});}
@@ -758,12 +768,23 @@ function showFatalErrorBanner(err){
     document.body.prepend(el);
   }catch(e){}
 }
+function showWarningBanner(msg){
+  try{
+    const el=document.createElement("div");
+    el.style.cssText="position:fixed;top:0;left:0;right:0;background:#C98A3B;color:#2E1D12;padding:12px 16px;font-family:monospace;font-size:12.5px;z-index:9998;white-space:pre-wrap;";
+    el.textContent="⚠️ "+msg;
+    document.body.prepend(el);
+  }catch(e){}
+}
 async function init(){
   try{
     await loadState();
   }catch(e){
     console.error("[coffee-explorer] init() failed during loadState():",e);
     showFatalErrorBanner(e);
+  }
+  if(!TASTING_CONFIG.fields||!TASTING_CONFIG.fields.length){
+    showWarningBanner("品飲紀錄表單設定檔（skills/tasting-record-form/assets/tasting-form-fields.json）載入失敗，表單欄位（豆名/處理法/焙度/六軸評分）不會出現，只會看到風味輪。請確認這個檔案有正確上傳到 GitHub，路徑跟大小寫要完全一致。");
   }
   // 不管上面資料載入成不成功，時鐘跟基本互動都要能動，讓使用者至少看得出網站「活著」
   tickClock();
