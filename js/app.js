@@ -21,9 +21,9 @@ function tagPillHTML(tag){return `<span class="tag-pill tag-cat-${tagCategoryOf(
 async function loadExternalConfig(){
   try{
     const [shopsData, tagTaxonomy, tastingFields] = await Promise.all([
-      fetch("./data/shops.json").then(r=>r.ok?r.json():[]).catch(()=>[]),
-      fetch("./data/tag-taxonomy.json").then(r=>r.ok?r.json():{}).catch(()=>({})),
-      fetch(".skills/tasting-record-form/assets/tasting-form-fields.json").then(r=>r.ok?r.json():{fields:[]}).catch(()=>({fields:[]}))
+      fetch("data/shops.json").then(r=>r.ok?r.json():[]).catch(()=>[]),
+      fetch("data/tag-taxonomy.json").then(r=>r.ok?r.json():{}).catch(()=>({})),
+      fetch("skills/tasting-record-form/assets/tasting-form-fields.json").then(r=>r.ok?r.json():{fields:[]}).catch(()=>({fields:[]}))
     ]);
     DEFAULT_SHOPS=Array.isArray(shopsData)?shopsData:[];
     TAG_CATEGORIES=tagTaxonomy||{};
