@@ -3,9 +3,9 @@
 "use strict";
 const HS=6,HE=24,HC=HE-HS,DL=["日","一","二","三","四","五","六"],YOBI=["日","月","火","水","木","金","土"],BAR_H=6,BAR_GAP=4,DAY_PAD=8;
 
-/* ===== EXTERNAL CONFIG (loaded once at startup — see data/ and skills/*/assets/*.json) =====
+/* ===== EXTERNAL CONFIG (loaded once at startup — see data folder and each skill's assets folder) =====
    店家資料、標籤分類、雷達圖軸設定、品飲表單欄位，全部是外部 JSON，不寫死在這支程式裡。
-   想調整任何一項，改對應的 JSON 檔案即可，不用碰 app.js。 */
+   想調整任何一項，改對應的 JSON 檔案即可，不用碰 app.js. */
 let TAG_CATEGORIES={};
 let TAG_CATEGORY_LOOKUP={};
 let RADAR_AXES=[];
