@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>FlavorWheel 最小整合範例</title>
+<link href="flavor-wheel.css" rel="stylesheet"/>
+<style>
+  body{max-width:480px;margin:30px auto;font-family:sans-serif;padding:0 14px;}
+  #tagRow{margin-top:12px;font-size:13px;color:#555;min-height:20px;}
+  .tag{display:inline-flex;align-items:center;gap:4px;background:#eee;border-radius:999px;padding:3px 6px 3px 10px;margin:2px;font-size:12px;cursor:pointer;}
+  .tag:hover{background:#fde8e8;}
+  .tag .x{opacity:.55;font-size:11px;}
+</style>
+</head>
+<body>
+  <h2>咖啡風味輪 — 最小整合範例</h2>
+  <div id="wheelContainer"></div>
+  <div id="tagRow"></div>
+
+<script src="flavor-wheel.js"></script>
+<script>
+  // 外部自己維護的標籤狀態（實務上這通常是某筆表單/紀錄的一個欄位）
+  let myTags = [];
+
+  function renderTagRow(){
+    document.getElementById('tagRow').innerHTML = myTags.length
+      ? myTags.map(t => `<span class="tag" data-tag="${t}">#${t}<span class="x">✕</span></span>`).join('')
+      : '尚未選擇風味標籤';
+  }
+  document.getElementById('tagRow').addEventListener('click', (e) => {
+    const el = e.target.closest('[data-tag]');
+    if (!el) return;
+    const i = myTags.indexOf(el.getAttribute('data-tag'));
+    if (i !== -1) myTags.splice(i, 1);
+    renderTagRow();
+    wheel.refresh(); // 標籤是在輪盤外部被移除的，呼叫 refresh() 讓輪盤同步高亮狀態
+  });
+
+  const wheel = FlavorWheel.create(document.getElementById('wheelContainer'), {
+    getTags: () => myTags,                 // 讓元件知道目前哪些細項該顯示為「已選」
+    startCategory: '花香',                  // 初始指標指向的大分類（選填）
+    onToggle: (leaf) => {                   // 使用者點擊細項／按下「加入標籤」時觸發
+      const idx = myTags.indexOf(leaf.zh);
+      if (idx === -1) myTags.push(leaf.zh); else myTags.splice(idx, 1);
+      renderTagRow();
+      // 如果 myTags 是在元件之外被改的（例如刪除按鈕在別處），改完後呼叫 wheel.refresh() 讓輪盤同步
+    }
+  });
+
+  window.wheel = wheel; // 方便除錯／外部呼叫 wheel.refresh()
+  renderTagRow();
+</script>
+</body>
+</html>

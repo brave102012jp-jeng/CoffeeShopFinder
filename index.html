@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>咖啡因班表｜嘉義獨立咖啡店探店地圖</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=IBM+Plex+Sans+TC:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!--
+  網站結構說明：
+  這個網站刻意拆成「資料」「網站骨架／邏輯」「風味輪／雷達圖／表單元件」三種可分開更新的部分：
+    data/shops.json            — 店家資料，手動用新的 Google Sheet 匯出結果覆蓋即可
+    data/tag-taxonomy.json     — 標籤三分類（沖煮／餐點／服務裝潢），手動維護
+    skills/radar-chart/        — 雷達圖元件（軸的項目由 assets/radar-axes.config.json 決定）※實際被下面的
+                                  tasting-record-form 設定檔取代（見 app.js 的 loadExternalConfig）
+    skills/tasting-record-form/— 品飲紀錄表單元件（欄位由 assets/tasting-form-fields.json 決定，
+                                  其中 radar-axis 類型欄位會自動同時變成雷達圖的軸）
+    skills/sca-flavor-wheel/   — 風味輪元件（SCA 官方風味輪資料，中文化）
+    js/app.js                  — 網站骨架／互動邏輯，開機時 fetch 上面幾份設定檔組裝起來
+  想個別調整哪一部分，直接改對應的檔案即可，不需要動到其他部分。
+-->
+
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/modal.css">
+<link rel="stylesheet" href="skills/sca-flavor-wheel/assets/flavor-wheel.css">
+</head>
+<body>
+
+<div class="app">
+  <div class="topbar">
+    <div class="brand"><div class="brand-mark">豆</div><div><h1>咖啡因班表</h1><p>獨立咖啡店探店地圖 ‧ 品飲筆記本</p></div></div>
+    <div class="locale-badge">
+      <span class="city">📍 <span id="cityLabel">嘉義市</span></span>
+      <select id="citySelect"><option value="嘉義市">嘉義市</option><option value="_soon" disabled>其他縣市（即將推出）</option></select>
+      <div class="now" id="nowClock">--:--<span id="nowDate">----</span></div>
+    </div>
+  </div>
+
+  <div class="section-head">
+    <div><span class="eyebrow">Weekly Roast Board</span><h2>本週營業時刻表</h2></div>
+    <div class="hint">縱軸＝星期，橫軸＝時段；預設只展開「今天」，其他天摺疊只顯示日期，點擊可展開查看；每天最多顯示 5 間店家（優先未去過、依距離排序），點色條可跳轉至店卡</div>
+  </div>
+
+  <div class="board-wrap">
+    <div class="board-top-bar">
+      <span class="label">Chiayi City / Weekly Schedule</span>
+      <div class="week-nav">
+        <button id="weekPrev">‹ 上一週</button>
+        <button id="weekToday">回到今天</button>
+        <button id="weekNext">下一週 ›</button>
+      </div>
+    </div>
+    <div class="gantt-scroll" id="ganttScroll"><table class="gantt-table" id="ganttTable"></table></div>
+    <div class="board-selected-line" id="selectedLine"></div>
+    <div class="board-footer">
+      <span class="legend-item"><span class="now-dot"></span> 現在時間</span>
+      <span class="legend-item"><span class="past-swatch"></span> 已過時段</span>
+      <span>點擊星期列可篩選下方清單</span>
+    </div>
+  </div>
+
+  <div class="controls" id="controlsPanel"></div>
+  <div class="section-head"><div><span class="eyebrow">Today's Pour List</span><h2 id="cardsTitle">探店清單</h2></div><div class="hint" id="cardsHint"></div></div>
+  <div class="cards-grid" id="shopCards"></div>
+
+  <div class="interest-panel">
+    <div class="section-head"><div><span class="eyebrow">Wishlist</span><h2>有興趣清單</h2></div></div>
+    <div class="interest-strip" id="interestStrip"></div>
+    <div class="export-row">
+      <button class="btn ghost small" data-export="interest" data-fmt="md">匯出 Markdown</button>
+      <button class="btn ghost small" data-export="interest" data-fmt="html">匯出 HTML</button>
+      <button class="btn ghost small" data-export="interest" data-fmt="csv">匯出 CSV</button>
+      <button class="btn ghost small" data-export="interest" data-fmt="pdf">匯出 PDF（列印）</button>
+    </div>
+  </div>
+  <div class="records-panel" id="journalPanel">
+    <div class="section-head"><div><span class="eyebrow">Tasting Journal</span><h2>探店日誌</h2></div></div>
+    <p class="hint" style="margin-bottom:10px;">所有走訪紀錄依時間排列，同店家可多次造訪。</p>
+    <div class="search-row">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="journalSearchInput" placeholder="搜尋店家名稱…"/>
+      <button class="search-clear-btn" id="clearJournalSearch" style="display:none;">✕</button>
+    </div>
+    <div id="journalTimeline"></div>
+  </div>
+
+  <div class="records-panel">
+    <div class="section-head"><div><span class="eyebrow">Tasting Journal</span><h2>探店紀錄匯出</h2></div></div>
+    <p class="hint">將所有已填寫的品飲紀錄匯出成檔案保存。</p>
+    <div class="export-row">
+      <button class="btn ghost small" data-export="records" data-fmt="md">匯出 Markdown</button>
+      <button class="btn ghost small" data-export="records" data-fmt="html">匯出 HTML</button>
+      <button class="btn ghost small" data-export="records" data-fmt="csv">匯出 CSV</button>
+      <button class="btn ghost small" data-export="records" data-fmt="pdf">匯出 PDF（列印）</button>
+    </div>
+  </div>
+  <footer class="credit">店家資料手動維護，資料僅保存在你的瀏覽器中<br>
+    地圖定位圖示參考自 <a href="https://www.flaticon.com/free-icons/pin-location" title="pin location icons" target="_blank" rel="noopener">Pin location icons created by I M Set - Flaticon</a>
+    ‧ <a href="https://www.flaticon.com/free-icons/location" title="location icons" target="_blank" rel="noopener">Location icons created by Shahid-Mehmood - Flaticon</a>
+  </footer>
+</div>
+
+<button class="btn gold data-panel-toggle" id="dataPanelToggle">⚙ 資料管理</button>
+<div class="data-panel" id="dataPanel" style="display:none;">
+  <h3>資料匯入 / 重設</h3>
+  <p>貼上 JSON 陣列覆蓋店家資料（欄位含 <code>city</code>、<code>mapUrl</code>）。正式更新請直接覆蓋 <code>data/shops.json</code> 並重新部署；這裡的匯入只影響你自己瀏覽器裡暫存的資料。</p>
+  <textarea id="importText"></textarea>
+  <div style="display:flex;gap:8px;margin-top:8px;"><button class="btn small" id="importBtn">套用匯入</button><button class="btn ghost small" id="resetBtn">重設為預設資料</button></div>
+</div>
+<div id="modalRoot"></div><div id="confirmRoot"></div><div id="recordViewerRoot"></div>
+<div class="bar-tooltip" id="barTooltip"></div>
+
+<!-- 元件 skill（需在 app.js 之前載入，app.js 會用到這些全域物件） -->
+<script src="skills/radar-chart/assets/radar-chart.js"></script>
+<script src="skills/tasting-record-form/assets/tasting-record-form.js"></script>
+<script src="skills/sca-flavor-wheel/assets/flavor-wheel.js"></script>
+
+<!-- 網站骨架／互動邏輯：開機時會 fetch data/*.json 與 skills/*/assets/*.json 組裝 -->
+<script src="js/app.js"></script>
+</body>
+</html>

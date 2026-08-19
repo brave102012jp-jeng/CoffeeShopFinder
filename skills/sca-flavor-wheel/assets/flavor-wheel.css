@@ -1,0 +1,43 @@
+/*!
+ * FlavorWheel CSS — 搭配 flavor-wheel.js 使用。
+ * 所有顏色都透過 CSS variable 取值並附預設值，直接覆寫外層容器上的變數即可套用你自己的主題色，
+ * 不需要改這個檔案本身。
+ *
+ *   .my-app-theme{
+ *     --fw-ink:#2E1D12; --fw-ink-soft:#5A4636; --fw-line:#D8CBB4; --fw-line-strong:#B9A886;
+ *     --fw-accent:#2F6F62; --fw-accent-dark:#204E45; --fw-pointer:#C98A3B;
+ *     --fw-font-serif:'Fraunces',serif; --fw-font-sans:'IBM Plex Sans TC',sans-serif; --fw-font-mono:'IBM Plex Mono',monospace;
+ *   }
+ */
+.fw-shell{border:1px solid var(--fw-line-strong,#ccc);border-radius:8px;overflow:hidden;background:#fff;font-family:var(--fw-font-sans,sans-serif);}
+.fw-wrap{position:relative;display:flex;align-items:stretch;height:300px;background:linear-gradient(90deg,#fff 0 40%,#fcfaf5 100%);}
+.fw-side-label{flex:0 0 128px;min-width:0;display:flex;flex-direction:column;justify-content:flex-start;gap:3px;padding:14px 6px 10px 12px;z-index:5;pointer-events:none;}
+.fw-crumb{font-family:var(--fw-font-mono,monospace);font-size:10px;color:var(--fw-ink-soft,#777);line-height:1.4;}
+.fw-main{font-family:var(--fw-font-serif,serif);font-size:19px;font-weight:600;color:var(--fw-ink,#222);line-height:1.2;word-break:break-word;}
+.fw-main .fw-en{display:block;font-family:var(--fw-font-mono,monospace);font-size:10.5px;font-weight:400;color:var(--fw-ink-soft,#777);margin-top:2px;}
+.fw-add-btn{pointer-events:auto;align-self:flex-start;margin-top:2px;border:1px solid var(--fw-accent,#2F6F62);background:var(--fw-accent,#2F6F62);color:#fff;border-radius:5px;padding:4px 10px;font-size:11.5px;font-family:inherit;cursor:pointer;}
+.fw-add-btn.on{background:#fff;color:var(--fw-accent-dark,#204E45);}
+.fw-nav-btns{display:flex;gap:6px;margin-top:2px;pointer-events:auto;}
+.fw-nav-btn{border:1px solid var(--fw-line-strong,#ccc);background:#f7f1e6;color:var(--fw-ink,#222);border-radius:5px;width:30px;height:26px;font-size:13px;line-height:1;cursor:pointer;font-family:inherit;}
+.fw-nav-btn:hover{background:#fff;border-color:var(--fw-accent,#2F6F62);}
+.fw-nav-btn:active{background:var(--fw-accent,#2F6F62);color:#fff;}
+.fw-pointer-line{position:absolute;left:0;right:0;top:50%;height:0;border-top:2px dashed var(--fw-pointer,#C98A3B);pointer-events:none;z-index:4;}
+.fw-pointer-line::before{content:'';position:absolute;left:118px;top:-5px;width:0;height:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:6px solid var(--fw-pointer,#C98A3B);}
+.fw-clip{flex:1;position:relative;overflow:hidden;touch-action:pan-y;cursor:grab;}
+.fw-clip:active{cursor:grabbing;}
+.fw-clip svg{position:absolute;top:0;left:0;width:100%;height:100%;}
+.fw-seg{stroke:#fff;stroke-width:.6;cursor:pointer;}
+.fw-seg.fw-cat{cursor:default;}
+.fw-seg.fw-leaf:hover{stroke:var(--fw-ink,#222);stroke-width:1.4;}
+.fw-seg.fw-leaf.active{stroke:var(--fw-ink,#222);stroke-width:2.4;}
+.fw-label{font-family:var(--fw-font-sans,sans-serif);fill:#fff;pointer-events:none;}
+.fw-label.fw-cat-label{font-size:10.5px;font-weight:600;}
+.fw-label.fw-sub-label{fill:#2E1D12;font-size:7.6px;}
+.fw-label.fw-leaf-label{fill:#2E1D12;font-size:6.2px;}
+.fw-hint{font-size:11px;color:var(--fw-ink-soft,#777);text-align:center;padding:5px 8px;border-top:1px solid var(--fw-line,#e2e2e2);background:#f7f1e6;}
+.fw-hint b{color:var(--fw-accent-dark,#204E45);}
+.fw-custom-row{display:flex;gap:6px;padding:8px;border-top:1px solid var(--fw-line,#e2e2e2);}
+.fw-custom-row input{flex:1;border:1px solid var(--fw-line-strong,#ccc);border-radius:7px;padding:7px 10px;font-size:12.5px;font-family:inherit;background:#fff;color:var(--fw-ink,#222);}
+.fw-custom-row input:focus{outline:none;border-color:var(--fw-accent,#2F6F62);}
+.fw-custom-row button{flex-shrink:0;border:1px solid var(--fw-accent,#2F6F62);background:var(--fw-accent,#2F6F62);color:#fff;border-radius:7px;padding:7px 14px;font-size:12.5px;font-family:inherit;cursor:pointer;}
+.fw-custom-row button:hover{background:var(--fw-accent-dark,#204E45);}

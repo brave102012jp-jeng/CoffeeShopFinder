@@ -1,0 +1,11 @@
+{
+  "_comment": "雷達圖軸設定：順序＝畫圖順序，角度自動用 360°／軸數 平分，不用手動算角度。新增/刪除/改名軸，改這個檔案即可，radar-chart.js 完全不用改。key 必須跟品飲紀錄表單設定檔（tasting-form-fields.json）裡對應欄位的 key 一致，兩份設定才會對得起來。",
+  "axes": [
+    { "key": "aroma", "label": "香氣", "max": 10 },
+    { "key": "body", "label": "Body", "max": 10 },
+    { "key": "bitterness", "label": "苦味", "max": 10 },
+    { "key": "acidity", "label": "酸質", "max": 10 },
+    { "key": "sweetness", "label": "甜感", "max": 10 },
+    { "key": "aftertaste", "label": "餘韻", "max": 10 }
+  ]
+}

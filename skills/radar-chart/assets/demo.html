@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8"/>
+<title>RadarChart demo</title>
+<style>body{font-family:sans-serif;background:#EFE6D8;padding:30px;display:flex;gap:30px;flex-wrap:wrap;}
+.card{background:#fff;border-radius:10px;padding:16px;box-shadow:0 4px 14px rgba(0,0,0,.08);}
+</style>
+</head>
+<body>
+<div class="card">
+  <h3>預設 6 軸（咖啡）</h3>
+  <div id="wrap6"></div>
+</div>
+<div class="card">
+  <h3>換成 4 軸試試（不用改 radar-chart.js）</h3>
+  <div id="wrap4"></div>
+</div>
+<div class="card">
+  <h3>換成 8 軸試試</h3>
+  <div id="wrap8"></div>
+</div>
+
+<script src="radar-chart.js"></script>
+<script>
+fetch('radar-axes.config.json').then(r=>r.json()).then(cfg=>{
+  const values = {aroma:7, body:6, bitterness:4, acidity:8, sweetness:5, aftertaste:6};
+  document.getElementById('wrap6').innerHTML = RadarChart.render(cfg.axes, values, {size:220});
+});
+
+const axes4 = [
+  {key:'a', label:'甜感', max:10},
+  {key:'b', label:'酸質', max:10},
+  {key:'c', label:'苦味', max:10},
+  {key:'d', label:'尾韻', max:10}
+];
+document.getElementById('wrap4').innerHTML = RadarChart.render(axes4, {a:8,b:5,c:3,d:7}, {size:220});
+
+const axes8 = [
+  {key:'a',label:'花香',max:10},{key:'b',label:'果香',max:10},{key:'c',label:'甜感',max:10},
+  {key:'d',label:'堅果',max:10},{key:'e',label:'香料',max:10},{key:'f',label:'烘焙',max:10},
+  {key:'g',label:'酸感',max:10},{key:'h',label:'植物',max:10}
+];
+document.getElementById('wrap8').innerHTML = RadarChart.render(axes8, {a:6,b:8,c:5,d:3,e:4,f:7,g:6,h:2}, {size:220, strokeColor:'#B4467E', fillColor:'rgba(180,70,126,.2)'});
+</script>
+</body>
+</html>

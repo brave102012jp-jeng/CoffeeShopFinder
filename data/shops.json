@@ -1,0 +1,3823 @@
+[
+  {
+    "id": "s1",
+    "city": "嘉義市",
+    "name": "HERMIT&Co.",
+    "address": "嘉義市東區成仁街209號",
+    "phone": "",
+    "fb": "https://www.facebook.com/p/HERMIT-Co-61552528074577/",
+    "ig": "https://www.instagram.com/hermit_and_co/",
+    "mapUrl": "https://www.google.com/maps/place/HERMIT+%26+Co./@23.4814011,120.4517276,17z/data=!4m8!3m7!1s0x346e950e9ed87071:0x6a02dc8c0c659d9b!8m2!3d23.4814011!4d120.4517276!9m1!1b1!16s%2Fg%2F11vkh1znkn?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4814011,
+    "lng": 120.4517276,
+    "tags": [
+      "老宅"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "3": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "4": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "11:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準；無電話，請洽IG私訊",
+    "extraNote": "1F內用無開放訂位/2F內用需達指定低消預約",
+    "irregularClosure": true
+  },
+  {
+    "id": "s2",
+    "city": "嘉義市",
+    "name": "木更咖啡Mugeneration",
+    "address": "嘉義市東區成仁街189號",
+    "phone": "05-2232288",
+    "fb": "https://www.facebook.com/mugeneration191/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E6%9C%A8%E6%9B%B4+MUGN/@23.4805045,120.4519814,17z/data=!3m1!4b1!4m6!3m5!1s0x346e94368ad752a1:0x44af0f6b62ae71a1!8m2!3d23.4805045!4d120.4519814!16s%2Fg%2F11c4lnqd3n?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4805045,
+    "lng": 120.4519814,
+    "tags": [
+      "老宅"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "11:00",
+        "close": "24:00"
+      },
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "6": {
+        "open": "10:00",
+        "close": "24:00"
+      }
+    },
+    "noteOnClosure": "公休：週二、週三、週四",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s3",
+    "city": "嘉義市",
+    "name": "Mimico秘密客咖啡館",
+    "address": "嘉義市東區興中街200號",
+    "phone": "05-2755866",
+    "fb": "https://www.facebook.com/mimicocafe",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/MIMICO+COFFEE+%E7%A7%98%E5%AF%86%E5%AE%A2%E5%92%96%E5%95%A1%E9%A4%A8/@23.4805045,120.4519814,17z/data=!4m6!3m5!1s0x346e9426988bd085:0x25e91aa04e8f083e!8m2!3d23.4836716!4d120.4499184!16s%2Fg%2F11g_w5rkw?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4805045,
+    "lng": 120.4519814,
+    "tags": [],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "3": null,
+      "4": null,
+      "5": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "10:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "公休：週三、週四",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s4",
+    "city": "嘉義市",
+    "name": "CoffeeSoulution 珈琲解方",
+    "address": "嘉義市東區安樂街62號",
+    "phone": "05-2776636",
+    "fb": "https://www.facebook.com/coffee.so.10/",
+    "ig": "http://instagram.com/coffee_soulution.chiayi",
+    "mapUrl": "https://www.google.com/maps/place/Coffee+Soulution+%E7%8F%88%E7%90%B2%E8%A7%A3%E6%96%B9/@23.4831851,120.461178,17z/data=!3m1!4b1!4m6!3m5!1s0x346e954841983fd3:0x88cd5200f44bd3c9!8m2!3d23.4831851!4d120.461178!16s%2Fg%2F11rjvwf4fm?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4831851,
+    "lng": 120.461178,
+    "tags": [
+      "手沖"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "2": null,
+      "3": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "4": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "11:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "公休：週二",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s5",
+    "city": "嘉義市",
+    "name": "睦嶋咖啡 island coffee",
+    "address": "嘉義市東區長榮街151號",
+    "phone": "05-2750003",
+    "fb": "https://www.facebook.com/mnislandcoffee/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E7%9D%A6%E5%B6%8B%E5%92%96%E5%95%A1+island+coffee/@23.4838864,120.4532507,17z/data=!3m1!4b1!4m6!3m5!1s0x346e959869b71319:0xf30703d669d926af!8m2!3d23.4838864!4d120.4532507!16s%2Fg%2F11pzt7dvt6?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4838864,
+    "lng": 120.4532507,
+    "tags": [
+      "手沖",
+      "自烘"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:30",
+        "close": "17:30"
+      },
+      "1": {
+        "open": "10:30",
+        "close": "17:30"
+      },
+      "2": {
+        "open": "10:30",
+        "close": "17:30"
+      },
+      "3": null,
+      "4": null,
+      "5": {
+        "open": "10:30",
+        "close": "17:30"
+      },
+      "6": {
+        "open": "10:30",
+        "close": "17:30"
+      }
+    },
+    "noteOnClosure": "公休：週三、週四",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s6",
+    "city": "嘉義市",
+    "name": "橘島咖啡 Orange Island",
+    "address": "嘉義市光彩街597號",
+    "phone": "",
+    "fb": "https://www.facebook.com/people/%E6%A9%98%E5%B3%B6-Orange-Island/61560809939175/",
+    "ig": "https://www.instagram.com/orange__island/",
+    "mapUrl": "https://www.google.com/maps/place/%E6%A9%98%E5%B3%B6Orange+Island+%E5%98%89%E7%BE%A9%E5%85%92%E7%AB%A5%E7%BE%8E%E8%A1%93%EF%BD%9C%E5%A3%93%E5%85%8B%E5%8A%9B%E5%89%B5%E4%BD%9C%E9%AB%94%E9%A9%97%E8%AA%B2%E7%A8%8B%EF%BD%9C%E6%B2%B9%E7%95%AB%E6%B0%B4%E5%BD%A9%E8%AA%B2%E7%A8%8B%EF%BD%9C%E5%92%96%E5%95%A1%E5%BB%B3%EF%BD%9C%E7%94%9C%E9%BB%9E/@23.4772561,120.4413554,17z/data=!4m15!1m8!3m7!1s0x346e9512a5a44049:0x5c5bd30848164fbb!2z5qmY5bO2T3JhbmdlIElzbGFuZCDlmInnvqnlhZLnq6Xnvo7ooZPvvZzlo5PlhYvlipvlibXkvZzpq5TpqZfoqrLnqIvvvZzmsrnnlavmsLTlvanoqrLnqIvvvZzlkpbllaHlu7PvvZznlJzpu54!8m2!3d23.4772561!4d120.4413554!10e2!16s%2Fg%2F11l2hpsxt0!3m5!1s0x346e9512a5a44049:0x5c5bd30848164fbb!8m2!3d23.4772561!4d120.4413554!16s%2Fg%2F11l2hpsxt0?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4772561,
+    "lng": 120.4413554,
+    "tags": [
+      "美術創作體驗",
+      "手沖"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "1": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "2": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "3": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "4": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "5": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "6": {
+        "open": "11:00",
+        "close": "19:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "",
+    "irregularClosure": true
+  },
+  {
+    "id": "s7",
+    "city": "嘉義市",
+    "name": "IN COFFEE",
+    "address": "嘉義市西區忠義街50號",
+    "phone": "",
+    "fb": "https://www.facebook.com/p/In_cafe-100063912820565/?locale=zh_TW",
+    "ig": "https://www.instagram.com/ookami.cafe/",
+    "mapUrl": "https://www.google.com/maps/place/IN+COFFEE/@23.4768875,120.4476871,17z/data=!3m1!4b1!4m6!3m5!1s0x346e95e56d479093:0xdfb81b75903d13bd!8m2!3d23.4768875!4d120.4476871!16s%2Fg%2F11frn5_vrl?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4768875,
+    "lng": 120.4476871,
+    "tags": [
+      "寵物友善",
+      "深夜咖啡"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "12:00",
+        "close": "01:00"
+      },
+      "1": {
+        "open": "12:00",
+        "close": "24:00"
+      },
+      "2": {
+        "open": "12:00",
+        "close": "24:00"
+      },
+      "3": {
+        "open": "12:00",
+        "close": "24:00"
+      },
+      "4": {
+        "open": "12:00",
+        "close": "24:00"
+      },
+      "5": {
+        "open": "12:00",
+        "close": "01:00"
+      },
+      "6": {
+        "open": "12:00",
+        "close": "01:00"
+      }
+    },
+    "noteOnClosure": "",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s8",
+    "city": "嘉義市",
+    "name": "老貓咖啡",
+    "address": "嘉義市西區民生南路312號",
+    "phone": "05-2752822",
+    "fb": "https://www.facebook.com/OldCatCoffee/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E8%80%81%E8%B2%93%E5%92%96%E5%95%A1/@23.4733872,120.4636897,17z/data=!3m1!4b1!4m6!3m5!1s0x346e959bbc620cb5:0x808ce42c83bc8fd6!8m2!3d23.4733872!4d120.4636897!16s%2Fg%2F11gvzlgx0_?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4733872,
+    "lng": 120.4636897,
+    "tags": [
+      "寵物友善"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "13:00",
+        "close": "18:00"
+      },
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": {
+        "open": "13:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "公休：週一、週二、週三、週四、週五",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s9",
+    "city": "嘉義市",
+    "name": "藏.咖啡嘉義中山店 CANG CAFE",
+    "address": "嘉義市東區中山路233號",
+    "phone": "05-2255622",
+    "fb": "https://www.facebook.com/cangcoffee",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E8%97%8F.%E5%92%96%E5%95%A1+%E5%98%89%E7%BE%A9%E4%B8%AD%E5%B1%B1%E5%BA%97/@23.4768875,120.4476871,17z/data=!4m6!3m5!1s0x346e9433e99ff80d:0x1d594e9c6a39756e!8m2!3d23.4807566!4d120.4518163!16s%2Fg%2F11crydb_nf?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4768875,
+    "lng": 120.4476871,
+    "tags": [],
+    "hoursByWeekday": {
+      "0": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "1": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "2": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "3": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "4": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "5": {
+        "open": "09:00",
+        "close": "24:00"
+      },
+      "6": {
+        "open": "09:00",
+        "close": "24:00"
+      }
+    },
+    "noteOnClosure": "",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s10",
+    "city": "嘉義市",
+    "name": "秘氏咖啡嘉義店",
+    "address": "嘉義市西區延平街288號",
+    "phone": "",
+    "fb": "https://www.facebook.com/cafechamber.Chiayi",
+    "ig": "https://www.instagram.com/cafechamber.chiayi/",
+    "mapUrl": "https://www.google.com/maps/place/%E5%98%89%E7%BE%A9-%E7%A7%98%E6%B0%8F%E5%92%96%E5%95%A1(%E6%89%8B%E6%B2%96%E5%92%96%E5%95%A1%E3%80%81%E6%97%A5%E5%BC%8F%E6%8A%B9%E8%8C%B6%E5%B0%88%E8%B3%A3%EF%BC%89/@23.4767054,120.448291,17z/data=!3m1!4b1!4m6!3m5!1s0x346e94303dc8e8e1:0x8e8cc8cd09584e80!8m2!3d23.4767054!4d120.448291!16s%2Fg%2F11c54hb9px?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4767054,
+    "lng": 120.448291,
+    "tags": [
+      "深夜咖啡",
+      "老宅"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "1": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "2": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "3": null,
+      "4": null,
+      "5": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "6": {
+        "open": "09:00",
+        "close": "17:00"
+      }
+    },
+    "noteOnClosure": "公休：週三、週四",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s11",
+    "city": "嘉義市",
+    "name": "荏苒咖啡",
+    "address": "嘉義市東區公園街97號",
+    "phone": "05-2752221",
+    "fb": "https://www.facebook.com/p/%E8%8D%8F%E8%8B%92%E5%92%96%E5%95%A1-100064642887023/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E8%8D%8F%E8%8B%92%E5%92%96%E5%95%A1/@23.4801299,120.4668976,17z/data=!4m7!3m6!1s0x346e95caa1ae94e5:0x6b9abc0fb6f7b684!8m2!3d23.4801299!4d120.4668976!10e2!16s%2Fg%2F11pxm94rqs?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4801299,
+    "lng": 120.4668976,
+    "tags": [
+      "老宅"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "1": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "2": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "3": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "4": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "5": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "6": {
+        "open": "09:00",
+        "close": "17:00"
+      }
+    },
+    "noteOnClosure": "店休：無固定店休，看fb",
+    "extraNote": "",
+    "irregularClosure": true
+  },
+  {
+    "id": "s12",
+    "city": "嘉義市",
+    "name": "Ookami狼咖啡",
+    "address": "嘉義市西區文化路17-15號",
+    "phone": "0919-526397",
+    "fb": "https://www.facebook.com/p/Ookami%E7%8B%BC%E5%92%96%E5%95%A1-100063605154451/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/Ookami%E7%8B%BC%E5%92%96%E5%95%A1/@23.4754148,120.4494479,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9594059fd57f:0xd4900d9ea2bf6286!8m2!3d23.4754148!4d120.4494479!16s%2Fg%2F11jgj1g7_7?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4754148,
+    "lng": 120.4494479,
+    "tags": [
+      "手沖",
+      "自家烘焙甜點"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "1": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "2": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "3": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "4": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "5": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "6": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "",
+    "irregularClosure": true
+  },
+  {
+    "id": "s13",
+    "city": "嘉義市",
+    "name": "霜空珈琲",
+    "address": "嘉義市西區國華街132號",
+    "phone": "05-2255507",
+    "fb": "https://www.facebook.com/p/%E9%9C%9C%E7%A9%BA%E7%8F%88%E7%90%B2-100064738770149/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E9%9C%9C%E7%A9%BA%E7%8F%88%E7%90%B2/@23.4778818,120.4487353,17z/data=!3m2!4b1!5s0x346e9431b5a21d0d:0x93195260792800!4m6!3m5!1s0x346e955a183f2a91:0x4f3244281f5ee92e!8m2!3d23.4778818!4d120.4487353!16s%2Fg%2F11ghljw3g9?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4778818,
+    "lng": 120.4487353,
+    "tags": [
+      "老宅"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "12:00",
+        "close": "18:30"
+      },
+      "1": {
+        "open": "12:00",
+        "close": "18:30"
+      },
+      "2": {
+        "open": "12:00",
+        "close": "18:30"
+      },
+      "3": null,
+      "4": null,
+      "5": {
+        "open": "12:00",
+        "close": "18:30"
+      },
+      "6": {
+        "open": "12:00",
+        "close": "18:30"
+      }
+    },
+    "noteOnClosure": "公休：週三、週四",
+    "extraNote": "現場候位無預約",
+    "irregularClosure": false
+  },
+  {
+    "id": "s14",
+    "city": "嘉義市",
+    "name": "桂桂子Keiko 咖啡",
+    "address": "嘉義市西區國華街227號",
+    "phone": "0910-700741",
+    "fb": "https://www.facebook.com/p/%E6%A1%82%E6%A1%82%E5%AD%90Keiko-%E5%92%96%E5%95%A1%E8%82%89%E6%A1%82%E6%8D%B2-61555351964403/",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E6%A1%82%E6%A1%82%E5%AD%90Keiko+%E5%92%96%E5%95%A1%2F%E6%89%8B%E6%B2%96%2F%E8%82%89%E6%A1%82%E6%8D%B2%2F%E9%B9%BD%E5%8F%AF%E9%A0%8C%2F%E8%B2%9D%E6%9E%9C%EF%BC%88%E4%BC%91%E5%81%87%E6%96%BCIg%E5%85%AC%E5%91%8A%EF%BD%9C%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%EF%BC%89/@23.4784375,120.4484776,17z/data=!3m1!4b1!4m6!3m5!1s0x346e95fa30bbb325:0xa41c84e709899351!8m2!3d23.4784375!4d120.4484776!16s%2Fg%2F11vjky81b8?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4784375,
+    "lng": 120.4484776,
+    "tags": [
+      "肉桂捲"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "1": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "2": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "3": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "4": null,
+      "5": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "6": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "noteOnClosure": "公休：週四",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s15",
+    "city": "嘉義市",
+    "name": "聖塔咖啡",
+    "address": "嘉義市東區興中街10號",
+    "phone": "05-2282025",
+    "fb": "https://www.facebook.com/stcoffeest",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E8%81%96%E5%A1%94%E5%92%96%E5%95%A1/@23.475162,120.451827,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9430bcd21af9:0x26368ce6f008cd06!8m2!3d23.475162!4d120.451827!16s%2Fg%2F11bbrjg8r9?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.475162,
+    "lng": 120.451827,
+    "tags": [
+      "老店",
+      "手工蛋捲"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "1": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "2": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "3": null,
+      "4": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "5": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "6": {
+        "open": "12:00",
+        "close": "21:00"
+      }
+    },
+    "noteOnClosure": "公休：週三",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s16",
+    "city": "嘉義市",
+    "name": "植慕咖啡",
+    "address": "嘉義市西區民生北路112號",
+    "phone": "",
+    "fb": "",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E6%A4%8D%E6%85%95%E5%92%96%E5%95%A1/@23.4767126,120.4466434,17z/data=!4m8!3m7!1s0x346e959ab75bf4eb:0x64a9c63a00814540!8m2!3d23.4767126!4d120.4466434!9m1!1b1!16s%2Fg%2F11npt0z4mf?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4767126,
+    "lng": 120.4466434,
+    "tags": [
+      "新開"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "12:00",
+        "close": "22:00"
+      },
+      "1": {
+        "open": "13:00",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "14:00",
+        "close": "22:00"
+      },
+      "3": {
+        "open": "14:00",
+        "close": "22:00"
+      },
+      "4": {
+        "open": "14:00",
+        "close": "22:00"
+      },
+      "5": {
+        "open": "14:00",
+        "close": "22:00"
+      },
+      "6": {
+        "open": "12:00",
+        "close": "20:00"
+      }
+    },
+    "noteOnClosure": "",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s17",
+    "city": "嘉義市",
+    "name": "小口品s",
+    "address": "嘉義市西區光彩街453號",
+    "phone": "0983-811465",
+    "fb": "https://www.facebook.com/xiaokoupin/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E5%B0%8F%E5%8F%A3%E5%93%81s/@23.4777303,120.4470138,17z/data=!3m1!4b1!4m6!3m5!1s0x346e942fd586f82f:0x455e68a95e02c609!8m2!3d23.4777303!4d120.4470138!16s%2Fg%2F11b7z_ztq4?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4777303,
+    "lng": 120.4470138,
+    "tags": [
+      "自烘",
+      "巴斯克乳酪"
+    ],
+    "hoursByWeekday": {
+      "0": null,
+      "1": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "2": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "3": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "4": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "5": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "6": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "noteOnClosure": "公休：週日",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s18",
+    "city": "嘉義市",
+    "name": "她的咖啡 HER COFFEE",
+    "address": "嘉義市東區興中街64號",
+    "phone": "",
+    "fb": "https://www.facebook.com/her2coffee/?locale=zh_TW",
+    "ig": "http://www.instagram.com/her2coffee/",
+    "mapUrl": "https://www.google.com/maps/search/%E5%A5%B9%E7%9A%84%E5%92%96%E5%95%A1+HER+COFFEE/@23.4767126,120.4466434,17z?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4767126,
+    "lng": 120.4466434,
+    "tags": [
+      "老宅",
+      "深夜咖啡",
+      "自烘"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "14:00",
+        "close": "01:00"
+      },
+      "1": {
+        "open": "14:00",
+        "close": "01:00"
+      },
+      "2": {
+        "open": "19:00",
+        "close": "01:00"
+      },
+      "3": {
+        "open": "19:00",
+        "close": "01:00"
+      },
+      "4": {
+        "open": "19:00",
+        "close": "01:00"
+      },
+      "5": {
+        "open": "21:00",
+        "close": "01:00"
+      },
+      "6": {
+        "open": "14:00",
+        "close": "01:00"
+      }
+    },
+    "noteOnClosure": "無電話",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s19",
+    "city": "嘉義市",
+    "name": "里響咖啡 RESHOCK COFFEE",
+    "address": "嘉義市東區中正路355號",
+    "phone": "05-2220010",
+    "fb": "https://www.facebook.com/reshockcoffee/",
+    "ig": "https://www.instagram.com/reshock.coffee/",
+    "mapUrl": "https://www.google.com/maps/place/%E9%87%8C%E9%9F%BF%E5%92%96%E5%95%A1+RESHOCK+COFFEE/@23.4788205,120.4503839,17z/data=!3m1!4b1!4m6!3m5!1s0x346e95f872346177:0xb8f0b68c94b2112c!8m2!3d23.4788205!4d120.4503839!16s%2Fg%2F11p5rjkrgt?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4788205,
+    "lng": 120.4503839,
+    "tags": [
+      "阿里山莊園咖啡",
+      "手沖"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "1": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "2": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "3": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "4": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "5": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "6": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "可內用(少位)/外帶為主",
+    "irregularClosure": true
+  },
+  {
+    "id": "s20",
+    "city": "嘉義市",
+    "name": "COFFEE PANTRY",
+    "address": "嘉義市西區興中街134號",
+    "phone": "05-2255567",
+    "fb": "https://www.facebook.com/people/Coffee-Pantry/61569040310765/?locale=zh_TW#",
+    "ig": "https://www.instagram.com/coffee_pantry567//",
+    "mapUrl": "https://www.google.com/maps/place/COFFEE+PANTRY/@23.4793281,120.451369,17z/data=!3m1!4b1!4m6!3m5!1s0x346e95006e63ceef:0xc6cd777b27c1291d!8m2!3d23.4793281!4d120.451369!16s%2Fg%2F11wnnnglrm?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4793281,
+    "lng": 120.451369,
+    "tags": [
+      "老宅"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "3": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "4": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "11:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "店休：看IG",
+    "extraNote": "可內用/可外帶",
+    "irregularClosure": true
+  },
+  {
+    "id": "s21",
+    "city": "嘉義市",
+    "name": "92度半咖啡（嘉義猴子號）",
+    "address": "嘉義市西區中正路427號",
+    "phone": "0973-485777",
+    "fb": "https://www.facebook.com/p/92%E5%BA%A6%E5%8D%8A%E5%92%96%E5%95%A1%E5%98%89%E7%BE%A9%E7%8C%B4%E5%AD%90%E8%99%9F%E5%A4%96%E9%80%81%E9%9B%BB%E8%A9%B10973485777-100088002593308/",
+    "ig": "https://www.instagram.com/explore/locations/106942655588058/920973485777/",
+    "mapUrl": "https://www.google.com/maps/place/92%E5%BA%A6%E5%8D%8A%E5%92%96%E5%95%A1%EF%BC%88%E5%98%89%E7%BE%A9%E7%8C%B4%E5%AD%90%E8%99%9F%EF%BC%89/@23.4793281,120.451369,17z/data=!4m6!3m5!1s0x346e9524b0a2e893:0x7a73b8ed04662e19!8m2!3d23.4786252!4d120.4487229!16s%2Fg%2F11k3hm7zyk?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4793281,
+    "lng": 120.451369,
+    "tags": [
+      "連鎖",
+      "外送咖啡"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "07:30",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "07:30",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "07:30",
+        "close": "18:00"
+      },
+      "3": {
+        "open": "07:30",
+        "close": "18:00"
+      },
+      "4": {
+        "open": "07:30",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "07:30",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "07:30",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "外帶",
+    "irregularClosure": true
+  },
+  {
+    "id": "s22",
+    "city": "嘉義市",
+    "name": "二屾 Ershen",
+    "address": "嘉義市東區成仁街70號",
+    "phone": "05-2292323",
+    "fb": "https://www.facebook.com/photo/?fbid=126187446883072&set=a.126187450216405&locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E4%BA%8C%E5%B1%BE+Ershen/@23.4774668,120.4525337,17z/data=!3m1!4b1!4m6!3m5!1s0x346e959155101ac1:0x2d06e42dc1ad1181!8m2!3d23.4774668!4d120.4525337!16s%2Fg%2F11s77krz8c?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4774668,
+    "lng": 120.4525337,
+    "tags": [
+      "老宅",
+      "寵物友善",
+      "供餐"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "1": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "2": null,
+      "3": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "4": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "5": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "6": {
+        "open": "12:00",
+        "close": "19:00"
+      }
+    },
+    "noteOnClosure": "公休：週二",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s23",
+    "city": "嘉義市",
+    "name": "SENSMO咖啡感獸",
+    "address": "嘉義市西區垂楊路429號(IG另標徐州六街49號",
+    "phone": "0958-740589",
+    "fb": "0958-740589",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/SENSMO%E5%92%96%E5%95%A1%E6%84%9F%E7%8D%B8/@23.4786252,120.4487229,17z/data=!4m6!3m5!1s0x346e9504eddf9a7d:0xd0a9d5d9222f976b!8m2!3d23.4731161!4d120.4441478!16s%2Fg%2F11s7qccltl?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4786252,
+    "lng": 120.4487229,
+    "tags": [
+      "深夜咖啡",
+      "直火烘豆",
+      "自烘"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "1": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "2": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "3": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "4": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "5": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "6": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "都可",
+    "irregularClosure": true
+  },
+  {
+    "id": "s24",
+    "city": "嘉義市",
+    "name": "嘉藝咖啡121cafe",
+    "address": "嘉義市東區興中街121號",
+    "phone": "05-2280069",
+    "fb": "https://www.facebook.com/chiayicafe/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E5%98%89%E8%97%9D%E5%92%96%E5%95%A1121cafe/@23.478709,120.4512857,17z/data=!3m1!4b1!4m6!3m5!1s0x346e95a627c6233d:0xf2c41f47709ef488!8m2!3d23.478709!4d120.4512857!16s%2Fg%2F11y8tg5rrs?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.478709,
+    "lng": 120.4512857,
+    "tags": [
+      "下午茶",
+      "咖哩正餐"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "3": null,
+      "4": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "09:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "公休：週三",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s25",
+    "city": "嘉義市",
+    "name": "咖啡一派 the coffee folks",
+    "address": "嘉義市西區西門街152號",
+    "phone": "",
+    "fb": "https://www.facebook.com/tcf.chiayi/?locale=zh_TW",
+    "ig": "https://instagram.com/the.coffee.folks?utm_medium=copy_link",
+    "mapUrl": "https://www.google.com/maps/place/%E5%92%96%E5%95%A1%E4%B8%80%E6%B4%BE+the+coffee+folks/@23.4757994,120.4434168,17z/data=!3m1!4b1!4m6!3m5!1s0x346e95331dbb958b:0xea986b3b60e1d712!8m2!3d23.4757994!4d120.4434168!16s%2Fg%2F11sqtqrt17?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4757994,
+    "lng": 120.4434168,
+    "tags": [
+      "有黑膠",
+      "南洋美食",
+      "老宅"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "2": null,
+      "3": null,
+      "4": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "11:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "公休：週二、週三",
+    "extraNote": "不開放訂位/限時120分鐘",
+    "irregularClosure": false
+  },
+  {
+    "id": "s26",
+    "city": "嘉義市",
+    "name": "曙光珈琲",
+    "address": "嘉義市東區公明路277號",
+    "phone": "",
+    "fb": "https://www.facebook.com/share/1BJi4aJTmm/?mibextid=wwXIfr",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E6%9B%99%E5%85%89%E7%8F%88%E7%90%B2/@23.4731161,120.4441478,17z/data=!4m6!3m5!1s0x346ea3001b429f61:0x1d9c403cdbc5efc0!8m2!3d23.4796237!4d120.4518386!16s%2Fg%2F11z7sz88f5?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4731161,
+    "lng": 120.4441478,
+    "tags": [
+      "耳機黑膠",
+      "新店"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "1": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "2": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "3": null,
+      "4": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "5": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "6": {
+        "open": "12:00",
+        "close": "19:00"
+      }
+    },
+    "noteOnClosure": "公休：週三",
+    "extraNote": "低消一杯飲料+黑膠體驗額外收費150/設備使用注意",
+    "irregularClosure": false
+  },
+  {
+    "id": "s27",
+    "city": "嘉義市",
+    "name": "Moonee Cafe",
+    "address": "嘉義市西區新榮路123-1號",
+    "phone": "0970-229282",
+    "fb": "https://www.facebook.com/p/Moonee-Cafe-100085483516696/",
+    "ig": "https://www.instagram.com/moonee.cafe/",
+    "mapUrl": "https://www.google.com/maps/place/Moonee+Cafe/@23.4738091,120.4446287,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9563b9d6a7eb:0x835e17c0febafa76!8m2!3d23.4738091!4d120.4446287!16s%2Fg%2F11s84b0hpf?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4738091,
+    "lng": 120.4446287,
+    "tags": [],
+    "hoursByWeekday": {
+      "0": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "1": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "2": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "3": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "4": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "5": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "6": {
+        "open": "12:00",
+        "close": "19:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "內用低消一杯飲品/限時90分鐘",
+    "irregularClosure": true
+  },
+  {
+    "id": "s28",
+    "city": "嘉義市",
+    "name": "橡園咖啡嘉義店",
+    "address": "嘉義市西區新榮路124號",
+    "phone": "05-2271716",
+    "fb": "https://www.facebook.com/Oaks0928chiayi/",
+    "ig": "https://www.instagram.com/oakscoffee_chiayi/",
+    "mapUrl": "https://www.google.com/maps/place/%E6%A9%A1%E5%9C%92%E5%92%96%E5%95%A1%E5%98%89%E7%BE%A9%E5%BA%97%2F%E5%92%96%E5%95%A1%E8%B1%86%2F%E5%92%96%E5%95%A1%E7%9B%B8%E9%97%9C%E9%A3%B2%E5%93%81%2F%E8%BC%95%E9%A3%9F%E7%94%9C%E5%93%81/@23.4814766,120.4509278,17z/data=!4m6!3m5!1s0x346e959d29943421:0x8f6423c7c847a5c6!8m2!3d23.4762095!4d120.4445403!16s%2Fg%2F11hvqxn_tb?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4814766,
+    "lng": 120.4509278,
+    "tags": [
+      "自家烘焙",
+      "老店"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:00",
+        "close": "21:10"
+      },
+      "1": {
+        "open": "10:00",
+        "close": "21:10"
+      },
+      "2": {
+        "open": "10:00",
+        "close": "21:10"
+      },
+      "3": {
+        "open": "10:00",
+        "close": "21:10"
+      },
+      "4": null,
+      "5": {
+        "open": "10:00",
+        "close": "21:10"
+      },
+      "6": {
+        "open": "10:00",
+        "close": "21:10"
+      }
+    },
+    "noteOnClosure": "公休：週四",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s29",
+    "city": "嘉義市",
+    "name": "Archers Kitchen 弓箭手",
+    "address": "嘉義市西區永安街13巷2號",
+    "phone": "05-2288066",
+    "fb": "https://www.facebook.com/Archerskitchen/",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/Archers+Kitchen+%E5%BC%93%E7%AE%AD%E6%89%8B/@23.4714837,120.4522484,17z/data=!3m1!4b1!4m6!3m5!1s0x346e942e656586af:0x9551eaab67acebd4!8m2!3d23.4714837!4d120.4522484!16s%2Fg%2F11hbshpj38?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4714837,
+    "lng": 120.4522484,
+    "tags": [
+      "老宅",
+      "植栽"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "1": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "2": null,
+      "3": null,
+      "4": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "5": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "6": {
+        "open": "09:00",
+        "close": "17:00"
+      }
+    },
+    "noteOnClosure": "公休：週二、週三",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s30",
+    "city": "嘉義市",
+    "name": "スピード Supiido",
+    "address": "嘉義市東區北榮街50號",
+    "phone": "05-2162229",
+    "fb": "https://www.facebook.com/p/%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89-supiido-100093105410443/",
+    "ig": "https://www.instagram.com/supiido_50/",
+    "mapUrl": "https://www.google.com/maps/place/%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89+Supiido/@23.4814766,120.4509278,17z/data=!3m1!4b1!4m6!3m5!1s0x346e957fa98e93d5:0x219459c53de93407!8m2!3d23.4814766!4d120.4509278!16s%2Fg%2F11q3b8cwyb?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4814766,
+    "lng": 120.4509278,
+    "tags": [
+      "外帶咖啡"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "08:00",
+        "close": "14:00"
+      },
+      "1": {
+        "open": "08:00",
+        "close": "14:00"
+      },
+      "2": {
+        "open": "08:00",
+        "close": "14:00"
+      },
+      "3": null,
+      "4": {
+        "open": "08:00",
+        "close": "14:00"
+      },
+      "5": {
+        "open": "08:00",
+        "close": "14:00"
+      },
+      "6": {
+        "open": "08:00",
+        "close": "14:00"
+      }
+    },
+    "noteOnClosure": "公休：週三",
+    "extraNote": "純外帶",
+    "irregularClosure": false
+  },
+  {
+    "id": "s31",
+    "city": "嘉義市",
+    "name": "民生咖啡嘉義",
+    "address": "嘉義市西區番社里林森西路340號",
+    "phone": "05-2220008",
+    "fb": "https://www.facebook.com/p/%E6%B0%91%E7%94%9F%E5%92%96%E5%95%A1-%E5%98%89%E7%BE%A9-61550765402945/?locale=zh_TW",
+    "ig": "https://www.instagram.com/minsheng__chiayi?igshid=MzMyNGUyNmU2YQ%3D%3D",
+    "mapUrl": "https://www.google.com/maps/place/%E6%B0%91%E7%94%9F%E5%92%96%E5%95%A1%E5%98%89%E7%BE%A9/@23.4826489,120.4450392,17z/data=!3m1!4b1!4m6!3m5!1s0x346e95eb573fc2e3:0x3445e91fb567406e!8m2!3d23.4826489!4d120.4450392!16s%2Fg%2F11vfbjgrr3?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4826489,
+    "lng": 120.4450392,
+    "tags": [
+      "老宅",
+      "寵物友善"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "1": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "2": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "3": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "4": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "5": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "6": {
+        "open": "12:00",
+        "close": "21:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "",
+    "irregularClosure": true
+  },
+  {
+    "id": "s32",
+    "city": "嘉義市",
+    "name": "牧羊人書店",
+    "address": "嘉義市西區過溝里興中街2號",
+    "phone": "",
+    "fb": "",
+    "ig": "https://www.instagram.com/shepherd_books/",
+    "mapUrl": "https://www.google.com/maps/place/%E7%89%A7%E7%BE%8A%E4%BA%BA%E6%9B%B8%E5%BA%97/@23.4744113,120.4518703,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9561dd8b7e7b:0xb7ab2f1b81496b63!8m2!3d23.4744113!4d120.4518703!16s%2Fg%2F11k3qm9pdp?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4744113,
+    "lng": 120.4518703,
+    "tags": [],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:30",
+        "close": "17:30"
+      },
+      "1": {
+        "open": "13:30",
+        "close": "21:30"
+      },
+      "2": {
+        "open": "13:30",
+        "close": "21:30"
+      },
+      "3": {
+        "open": "13:30",
+        "close": "21:30"
+      },
+      "4": {
+        "open": "13:30",
+        "close": "21:30"
+      },
+      "5": {
+        "open": "13:30",
+        "close": "21:30"
+      },
+      "6": {
+        "open": "13:30",
+        "close": "21:30"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "",
+    "irregularClosure": true
+  },
+  {
+    "id": "s33",
+    "city": "嘉義市",
+    "name": "卓武咖啡",
+    "address": "嘉義市西區民生北路194號",
+    "phone": "05-2225896",
+    "fb": "https://www.facebook.com/ZhuoWuCafe/?locale=zh_TW",
+    "ig": "https://www.instagram.com/zhuowucafe/",
+    "mapUrl": "https://www.google.com/maps/place/%E5%8D%93%E6%AD%A6%E5%92%96%E5%95%A1/@23.4787031,120.4465082,17z/data=!3m1!4b1!4m6!3m5!1s0x346e94220fc8b021:0x8e619a4490c24bca!8m2!3d23.4787031!4d120.4465082!16s%2Fg%2F12llh_qxp?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4787031,
+    "lng": 120.4465082,
+    "tags": [
+      "阿里山莊園咖啡",
+      "自有莊園咖啡",
+      "手沖",
+      "咖啡葉茶"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "1": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "2": null,
+      "3": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "4": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "5": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "6": {
+        "open": "08:00",
+        "close": "17:00"
+      }
+    },
+    "noteOnClosure": "公休：週二",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s34",
+    "city": "嘉義市",
+    "name": "五魚咖啡",
+    "address": "嘉義市西區西榮里中正路552巷1號",
+    "phone": "0933-062-404",
+    "fb": "https://www.facebook.com/p/%E4%BA%94%E9%AD%9A%E5%92%96%E5%95%A1Overflow-100067361512968/",
+    "ig": "https://www.instagram.com/five_fish_cafe",
+    "mapUrl": "https://www.google.com/maps/place/%E4%BA%94%E9%AD%9A%E5%92%96%E5%95%A1/@23.4790243,120.4465777,17z/data=!3m1!4b1!4m6!3m5!1s0x346e950063fb930f:0x64153b0c082a1ee0!8m2!3d23.4790243!4d120.4465777!16s%2Fg%2F11y9hvt8m0?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4790243,
+    "lng": 120.4465777,
+    "tags": [],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:00",
+        "close": "17:00"
+      },
+      "1": {
+        "open": "10:00",
+        "close": "17:00"
+      },
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null
+    },
+    "noteOnClosure": "公休：週二、週三、週四、週五、週六",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s35",
+    "city": "嘉義市",
+    "name": "名流小舖",
+    "address": "嘉義市西區民生南路65號",
+    "phone": "05-222-9019",
+    "fb": "https://www.facebook.com/p/%E5%90%8D%E6%B5%81%E5%B0%8F%E8%88%96-100057273318383/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E5%90%8D%E6%B5%81%E5%B0%8F%E8%88%96/@23.4718412,120.4472091,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9424cc6e5dc9:0x36c6829f49769590!8m2!3d23.4718412!4d120.4472091!16s%2Fg%2F11d_t3smky?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4718412,
+    "lng": 120.4472091,
+    "tags": [
+      "僅賣咖啡豆",
+      "老店"
+    ],
+    "hoursByWeekday": {
+      "0": null,
+      "1": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "3": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "4": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "11:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "公休：週日",
+    "extraNote": "僅賣咖啡豆",
+    "irregularClosure": false
+  },
+  {
+    "id": "s36",
+    "city": "嘉義市",
+    "name": "江鳥咖啡-嘉義民北門市",
+    "address": "嘉義市西區民生北路271號",
+    "phone": "05-2276238",
+    "fb": "https://www.facebook.com/rbcoffeeroasters/",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E6%B1%9F%E9%B3%A5%E5%92%96%E5%95%A1-%E5%98%89%E7%BE%A9%E6%B0%91%E5%8C%97%E9%96%80%E5%B8%82/@23.4815197,120.4458829,17z/data=!3m1!4b1!4m6!3m5!1s0x346e95396b1d2581:0xd73f87f65aec7dbb!8m2!3d23.4815197!4d120.4458829!16s%2Fg%2F11rz4swz8w?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4815197,
+    "lng": 120.4458829,
+    "tags": [
+      "自烘"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "09:30",
+        "close": "17:30"
+      },
+      "1": {
+        "open": "09:30",
+        "close": "17:30"
+      },
+      "2": null,
+      "3": {
+        "open": "09:30",
+        "close": "17:30"
+      },
+      "4": {
+        "open": "09:30",
+        "close": "17:30"
+      },
+      "5": {
+        "open": "09:30",
+        "close": "17:30"
+      },
+      "6": {
+        "open": "09:30",
+        "close": "17:30"
+      }
+    },
+    "noteOnClosure": "公休：週二",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s37",
+    "city": "嘉義市",
+    "name": "木商珈琲",
+    "address": "嘉義市東區蘭井街78號",
+    "phone": "",
+    "fb": "https://www.facebook.com/p/Moku-sho%E6%9C%A8%E5%95%86%E7%8F%88%E7%90%B2-100089700960331/?locale=zh_TW",
+    "ig": "https://www.instagram.com/mokusho_cafe/",
+    "mapUrl": "https://www.google.com/maps/place/%E6%9C%A8%E5%95%86%E7%8F%88%E7%90%B2/@23.4780789,120.4549084,17z/data=!3m1!4b1!4m6!3m5!1s0x346e95ed2da139b5:0x2423b8f0ed5f2f94!8m2!3d23.4780789!4d120.4549084!16s%2Fg%2F11k554d2qj?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4780789,
+    "lng": 120.4549084,
+    "tags": [
+      "老宅",
+      "列日鬆餅"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "11:00",
+        "close": "17:30"
+      },
+      "1": {
+        "open": "11:00",
+        "close": "17:30"
+      },
+      "2": {
+        "open": "11:00",
+        "close": "17:30"
+      },
+      "3": {
+        "open": "11:00",
+        "close": "17:30"
+      },
+      "4": null,
+      "5": null,
+      "6": {
+        "open": "11:00",
+        "close": "17:30"
+      }
+    },
+    "noteOnClosure": "公休：週四、週五",
+    "extraNote": "低消一杯飲品/限時70分鐘",
+    "irregularClosure": false
+  },
+  {
+    "id": "s38",
+    "city": "嘉義市",
+    "name": "YEH COFFEE",
+    "address": "嘉義市西區垂楊里建成街22巷1號",
+    "phone": "",
+    "fb": "",
+    "ig": "https://www.instagram.com/yeh_coffee/",
+    "mapUrl": "https://www.google.com/maps/place/YEH+COFFEE-%E5%BA%97%E4%BC%91%E5%8F%8A%E7%87%9F%E6%A5%AD%E8%B3%87%E8%A8%8A%E4%BB%A5IG%E7%82%BA%E4%B8%BB%2F%E7%84%A1%E6%8E%A5%E5%BE%855%E4%BA%BA%E4%BB%A5%E4%B8%8A%E7%99%BB%E8%A8%98%E5%80%99%E4%BD%8D(%E7%84%A1%E6%B3%95%E6%8B%86%E6%A1%8C%E8%88%87%E4%BD%B5%E6%A1%8C)%E5%8F%8A6%E6%AD%B2%E4%BB%A5%E4%B8%8B%E5%AD%A9%E7%AB%A5/@23.4802811,120.4473881,17z/data=!4m6!3m5!1s0x346e9500773fd663:0x660f484743e03e7f!8m2!3d23.4722619!4d120.4417176!16s%2Fg%2F11m716kcwd?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4802811,
+    "lng": 120.4473881,
+    "tags": [
+      "法式吐司"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:30",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "10:30",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "10:30",
+        "close": "18:00"
+      },
+      "3": {
+        "open": "10:30",
+        "close": "18:00"
+      },
+      "4": {
+        "open": "10:30",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "10:30",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "10:30",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "店休：依IG公告",
+    "extraNote": "內用少位/禁帶外食/限時90分鐘/無接待5人以上登記候位",
+    "irregularClosure": true
+  },
+  {
+    "id": "s39",
+    "city": "嘉義市",
+    "name": "蕨醒咖啡",
+    "address": "嘉義市西區國華里忠義街138號",
+    "phone": "05-2258191",
+    "fb": "https://www.facebook.com/Ferns-coffee-%E8%95%A8%E9%86%92%E5%92%96%E5%95%A1-1801822046704531/",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E8%95%A8%E9%86%92%E5%92%96%E5%95%A1/@23.4802811,120.4473881,17z/data=!4m16!1m9!3m8!1s0x346e9431fd79a23d:0xd6ec62a3a47a3059!2z6JWo6YaS5ZKW5ZWh!8m2!3d23.4802811!4d120.4473881!9m1!1b1!16s%2Fg%2F11c2jl7b6f!3m5!1s0x346e9431fd79a23d:0xd6ec62a3a47a3059!8m2!3d23.4802811!4d120.4473881!16s%2Fg%2F11c2jl7b6f?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4802811,
+    "lng": 120.4473881,
+    "tags": [
+      "鬆餅",
+      "拿鐵"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "09:00",
+        "close": "16:00"
+      },
+      "1": {
+        "open": "09:00",
+        "close": "16:00"
+      },
+      "2": {
+        "open": "09:00",
+        "close": "16:00"
+      },
+      "3": {
+        "open": "09:00",
+        "close": "16:00"
+      },
+      "4": {
+        "open": "09:00",
+        "close": "16:00"
+      },
+      "5": {
+        "open": "09:00",
+        "close": "16:00"
+      },
+      "6": {
+        "open": "09:00",
+        "close": "16:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "可內用(少位)/外帶為主",
+    "irregularClosure": true
+  },
+  {
+    "id": "s40",
+    "city": "嘉義市",
+    "name": "內海uchiumi",
+    "address": "嘉義市西區新榮路34巷1號2樓",
+    "phone": "",
+    "fb": "https://www.facebook.com/uchiumi520/?locale=zh_TW",
+    "ig": "https://instagram.com/uchiumi520?igshid=YmMyMTA2M2Y=",
+    "mapUrl": "https://www.google.com/maps/place/%E5%85%A7%E6%B5%B7uchiumi/@23.4729014,120.4450122,17z/data=!3m1!4b1!4m6!3m5!1s0x346e95854a776d4b:0x87713421c4dc0949!8m2!3d23.4729014!4d120.4450122!16s%2Fg%2F11shwfds34?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4729014,
+    "lng": 120.4450122,
+    "tags": [
+      "選書選茶選豆",
+      "策展"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "13:00",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "13:00",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "13:00",
+        "close": "18:00"
+      },
+      "3": {
+        "open": "13:00",
+        "close": "18:00"
+      },
+      "4": {
+        "open": "13:00",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "13:00",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "13:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "店休：依IG公告",
+    "extraNote": "民宅二樓按鈴",
+    "irregularClosure": true
+  },
+  {
+    "id": "s41",
+    "city": "嘉義市",
+    "name": "嚮日咖啡",
+    "address": "嘉義市西區永安街55號",
+    "phone": "05-2275435",
+    "fb": "https://www.facebook.com/sunwardcoffee2022/?locale=zh_TW",
+    "ig": "https://www.instagram.com/sunwardcoffee_2o22/",
+    "mapUrl": "https://www.google.com/maps/place/%E5%9A%AE%E6%97%A5%E5%92%96%E5%95%A1/@23.4708645,120.4508994,17z/data=!3m1!4b1!4m6!3m5!1s0x346e95403781d6e1:0xb318e48488a2c382!8m2!3d23.4708645!4d120.4508994!16s%2Fg%2F11jslm_j9r?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4708645,
+    "lng": 120.4508994,
+    "tags": [
+      "手沖",
+      "充電辦公"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "13:30",
+        "close": "19:00"
+      },
+      "1": {
+        "open": "13:30",
+        "close": "19:00"
+      },
+      "2": {
+        "open": "13:30",
+        "close": "19:00"
+      },
+      "3": {
+        "open": "13:30",
+        "close": "19:00"
+      },
+      "4": {
+        "open": "13:30",
+        "close": "19:00"
+      },
+      "5": {
+        "open": "13:30",
+        "close": "19:00"
+      },
+      "6": {
+        "open": "13:30",
+        "close": "23:00"
+      }
+    },
+    "noteOnClosure": "",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s42",
+    "city": "嘉義市",
+    "name": "莎拉咖啡",
+    "address": "查無資料",
+    "phone": "05-2252915",
+    "fb": "https://www.facebook.com/p/%E8%8E%8E%E6%8B%89%E5%92%96%E5%95%A1-100063525775978/",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E8%8E%8E%E6%8B%89%E5%92%96%E5%95%A1/@23.4735462,120.4440698,17z/data=!3m1!4b1!4m6!3m5!1s0x346e95c2e1d7d459:0x5f1b116ce365a65b!8m2!3d23.4735462!4d120.4440698!16s%2Fg%2F11h7g30m1z?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4735462,
+    "lng": 120.4440698,
+    "tags": [
+      "手沖",
+      "賣豆"
+    ],
+    "hoursByWeekday": {
+      "0": null,
+      "1": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "2": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "3": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "4": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "5": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "6": {
+        "open": "12:00",
+        "close": "19:00"
+      }
+    },
+    "noteOnClosure": "公休：週日",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s43",
+    "city": "嘉義市",
+    "name": "花居咖啡 HUA COFFEE",
+    "address": "嘉義市東區中山里民權路254號",
+    "phone": "05-278-2588",
+    "fb": "https://www.facebook.com/profile.php?id=61587517719774&ref=PROFILE_EDIT_xav_ig_profile_page_web#",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E8%8A%B1%E5%B1%85%E5%92%96%E5%95%A1+HUA+COFFEE/@23.482976,120.4528509,17z/data=!3m1!4b1!4m6!3m5!1s0x346e958714f4f0e9:0x791b979b8a0ff43!8m2!3d23.482976!4d120.4528509!16s%2Fg%2F11z0pkf0ht?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.482976,
+    "lng": 120.4528509,
+    "tags": [
+      "手沖"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "3": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "4": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "10:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "有插座",
+    "irregularClosure": true
+  },
+  {
+    "id": "s44",
+    "city": "嘉義市",
+    "name": "花磚咖啡。淺花樓",
+    "address": "嘉義市西區文化路255號2樓",
+    "phone": "05-2276696",
+    "fb": "https://www.facebook.com/people/%E8%8A%B1%E7%A3%9A%E5%92%96%E5%95%A1%E6%B7%BA%E8%8A%B1%E6%A8%93/61557986642279/",
+    "ig": "https://www.instagram.com/azulejo_2f/",
+    "mapUrl": "https://www.google.com/maps/place/%E8%8A%B1%E7%A3%9A%E5%92%96%E5%95%A1%E3%80%82%E6%B7%BA%E8%8A%B1%E6%A8%93/@23.483017,120.4487475,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9500372b3c9f:0xd80cb41d0fd46ecb!8m2!3d23.483017!4d120.4487475!16s%2Fg%2F11vyhygkm0?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.483017,
+    "lng": 120.4487475,
+    "tags": [
+      "老宅"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:30",
+        "close": "18:30"
+      },
+      "1": {
+        "open": "10:30",
+        "close": "18:30"
+      },
+      "2": {
+        "open": "10:30",
+        "close": "18:30"
+      },
+      "3": null,
+      "4": {
+        "open": "10:30",
+        "close": "18:30"
+      },
+      "5": {
+        "open": "10:30",
+        "close": "18:30"
+      },
+      "6": {
+        "open": "10:30",
+        "close": "18:30"
+      }
+    },
+    "noteOnClosure": "公休：週三",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s45",
+    "city": "嘉義市",
+    "name": "Five Woods 五木咖啡",
+    "address": "嘉義市西區林森西路193號",
+    "phone": "05-2288073",
+    "fb": "https://www.facebook.com/fivewoodscoffee",
+    "ig": "https://www.instagram.com/fivewoodslife/",
+    "mapUrl": "https://www.google.com/maps/place/Five+Woods+%E4%BA%94%E6%9C%A8%E5%92%96%E5%95%A1/@23.4831551,120.4464573,17z/data=!3m2!4b1!5s0x346e942d9b3d98b9:0xce87a8b467f1ef77!4m6!3m5!1s0x346e942d9b630fa7:0xb25d476cec423f55!8m2!3d23.4831551!4d120.4464573!16s%2Fg%2F11f317tn85?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4831551,
+    "lng": 120.4464573,
+    "tags": [],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "3": null,
+      "4": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "10:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "公休：週三",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s46",
+    "city": "嘉義市",
+    "name": "哇咕哇咕咖啡店．Wagu Wagu Coffee",
+    "address": "嘉義市西區福全里中興路157號1樓",
+    "phone": "0976-117511",
+    "fb": "https://www.facebook.com/p/%E5%93%87%E5%92%95%E5%93%87%E5%92%95%E5%92%96%E5%95%A1%E5%BA%97-61555875094240/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E5%93%87%E5%92%95%E5%93%87%E5%92%95%E5%92%96%E5%95%A1%E5%BA%97%EF%BC%8EWagu+Wagu+Coffee/@23.4821931,120.4364855,17z/data=!3m1!4b1!4m6!3m5!1s0x346e95e7ade33a75:0x44c16e38c6ff743c!8m2!3d23.4821931!4d120.4364855!16s%2Fg%2F11vszx4hh1?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4821931,
+    "lng": 120.4364855,
+    "tags": [
+      "手沖"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "1": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "2": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "3": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "4": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "5": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "6": {
+        "open": "11:00",
+        "close": "21:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "內用少位/有插座",
+    "irregularClosure": true
+  },
+  {
+    "id": "s47",
+    "city": "嘉義市",
+    "name": "黑嶼白 Black Islands White",
+    "address": "嘉義市西區自強里永安街385號1樓",
+    "phone": "05-235-6865",
+    "fb": "https://www.facebook.com/p/%E9%BB%91%E5%B6%BC%E7%99%BD-61557046229586",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E9%BB%91%E5%B6%BC%E7%99%BD+Black+Islands+White+Coffee%26Tea%E3%80%82%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%2F%E8%8C%B6%E9%A3%B2%2F%E8%97%8D%E8%8E%93%E8%B2%9D%E6%9E%9C%2F%E9%B9%BD%E5%8F%AF%E9%A0%8C%2F%E8%87%AA%E8%A3%BD%E5%A5%B6%E9%85%A5%E6%B3%95%E6%A3%8D%E3%80%82%E5%98%89%E7%BE%A9%E5%92%96%E5%95%A1%E3%80%82/@23.4700761,120.4426084,15z/data=!4m8!3m7!1s0x346e95000c23e197:0x7bb0bbec326391de!8m2!3d23.4699912!4d120.4426197!9m1!1b1!16s%2Fg%2F11wtmmjlsz?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4700761,
+    "lng": 120.4426084,
+    "tags": [
+      "濃縮特調",
+      "手工甜點"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "1": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "2": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "3": null,
+      "4": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "5": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "6": {
+        "open": "11:00",
+        "close": "19:00"
+      }
+    },
+    "noteOnClosure": "公休：週三",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s48",
+    "city": "嘉義市",
+    "name": "藌橘 ORANGE COFFEE&GOODS.",
+    "address": "嘉義市西區國華里文化路215號",
+    "phone": "",
+    "fb": "https://www.facebook.com/p/%E8%97%8C%E6%A9%98Orange-coffee-goods-100095233403659/",
+    "ig": "https://www.instagram.com/20orange_/",
+    "mapUrl": "https://www.google.com/maps/place/%E8%97%8C%E6%A9%98+ORANGE+COFFEE%26GOODS./@23.4818182,120.449061,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9500782b3ae7:0xffd2a5a2df42aa1c!8m2!3d23.4818182!4d120.449061!16s%2Fg%2F11lzqtt_jy?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4818182,
+    "lng": 120.449061,
+    "tags": [],
+    "hoursByWeekday": {
+      "0": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "2": null,
+      "3": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "4": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "11:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "公休：週二",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s49",
+    "city": "嘉義市",
+    "name": "瑪奇咖啡 MUCH Café",
+    "address": "嘉義市西區垂楊路632號",
+    "phone": "05-2248845",
+    "fb": "https://www.facebook.com/muchcafe/",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/MUCH+Caf%C3%A9+(Chiayi)/@23.4735245,120.4333104,15z/data=!3m1!4b1!4m6!3m5!1s0x346e94244d8fe247:0x270dc4613179ebf0!8m2!3d23.4735052!4d120.4436102!16s%2Fg%2F1hc329n45?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4735245,
+    "lng": 120.4333104,
+    "tags": [
+      "義式",
+      "老店"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "09:30",
+        "close": "02:30"
+      },
+      "1": {
+        "open": "09:30",
+        "close": "02:30"
+      },
+      "2": {
+        "open": "09:30",
+        "close": "02:30"
+      },
+      "3": {
+        "open": "09:30",
+        "close": "02:30"
+      },
+      "4": {
+        "open": "09:30",
+        "close": "02:30"
+      },
+      "5": {
+        "open": "09:30",
+        "close": "02:30"
+      },
+      "6": {
+        "open": "09:30",
+        "close": "02:30"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "內用/戶外座位",
+    "irregularClosure": true
+  },
+  {
+    "id": "s50",
+    "city": "嘉義市",
+    "name": "Mr. KAI CAFE 日常咖啡工坊",
+    "address": "嘉義市西區國華街巷弄內(門牌待確認)",
+    "phone": "0901-177-520",
+    "fb": "https://www.facebook.com/daycaff/",
+    "ig": "https://www.instagram.com/jesse__412/",
+    "mapUrl": "https://www.google.com/maps/place/Mr.+KAI+CAFE+%E6%97%A5%E5%B8%B8%E5%92%96%E5%95%A1%E5%B7%A5%E5%9D%8A/@23.4829953,120.4425511,15z/data=!4m6!3m5!1s0x346e9596e2474175:0xdb8fb1e717534648!8m2!3d23.4785279!4d120.4489615!16s%2Fg%2F11h4qmp496?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4829953,
+    "lng": 120.4425511,
+    "tags": [
+      "手沖",
+      "虹吸"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "13:00",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "13:00",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "13:00",
+        "close": "18:00"
+      },
+      "3": {
+        "open": "13:00",
+        "close": "18:00"
+      },
+      "4": {
+        "open": "13:00",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "13:00",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "13:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "",
+    "irregularClosure": true
+  },
+  {
+    "id": "s51",
+    "city": "嘉義市",
+    "name": "慕 珈琲店",
+    "address": "嘉義市東區安樂街156號",
+    "phone": "05-2711122",
+    "fb": "https://www.facebook.com/p/%E6%85%95-%E7%8F%88%E7%90%B2%E5%BA%97-100063684441901/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E6%85%95+%E7%8F%88%E7%90%B2%E5%BA%97/@23.4826782,120.4563712,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9435192266f5:0x11a8c2674a4b1cf4!8m2!3d23.4826782!4d120.4563712!16s%2Fg%2F11f523qr7r?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4826782,
+    "lng": 120.4563712,
+    "tags": [
+      "手沖",
+      "不限時"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "12:00",
+        "close": "23:00"
+      },
+      "1": {
+        "open": "12:00",
+        "close": "23:00"
+      },
+      "2": {
+        "open": "12:00",
+        "close": "23:00"
+      },
+      "3": null,
+      "4": {
+        "open": "12:00",
+        "close": "23:00"
+      },
+      "5": {
+        "open": "12:00",
+        "close": "23:00"
+      },
+      "6": {
+        "open": "12:00",
+        "close": "23:00"
+      }
+    },
+    "noteOnClosure": "公休：週三",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s52",
+    "city": "嘉義市",
+    "name": "Morikoohii 森 咖啡",
+    "address": "嘉義市東區共和路199巷1號(檜意森活村)",
+    "phone": "05-2761601轉2122",
+    "fb": "https://www.facebook.com/morikoohii/",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/Mr.+KAI+CAFE+%E6%97%A5%E5%B8%B8%E5%92%96%E5%95%A1%E5%B7%A5%E5%9D%8A/@23.4859756,120.4440552,15z/data=!4m7!3m6!1s0x346e9596e2474175:0xdb8fb1e717534648!8m2!3d23.4785279!4d120.4489615!10e9!16s%2Fg%2F11h4qmp496?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4859756,
+    "lng": 120.4440552,
+    "tags": [
+      "老宅",
+      "鬆餅"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "3": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "4": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "10:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "不接受預約",
+    "irregularClosure": true
+  },
+  {
+    "id": "s53",
+    "city": "嘉義市",
+    "name": "Les Amis café 樂瑞比咖啡",
+    "address": "嘉義市東區垂楊路147號",
+    "phone": "05-2273788",
+    "fb": "https://www.facebook.com/Lesamiscafetw/",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/Morikoohii+%E6%A3%AE+%E5%92%96%E5%95%A1/@23.4859756,120.4440552,15z/data=!3m1!4b1!4m6!3m5!1s0x346e95cb41fe5b75:0x33a6fb0782851c81!8m2!3d23.4859563!4d120.454355!16s%2Fg%2F11b5wqcw_3?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4859756,
+    "lng": 120.4440552,
+    "tags": [],
+    "hoursByWeekday": {
+      "0": {
+        "open": "11:00",
+        "close": "17:00"
+      },
+      "1": {
+        "open": "11:00",
+        "close": "17:00"
+      },
+      "2": {
+        "open": "11:00",
+        "close": "17:00"
+      },
+      "3": {
+        "open": "11:00",
+        "close": "17:00"
+      },
+      "4": {
+        "open": "11:00",
+        "close": "17:00"
+      },
+      "5": {
+        "open": "11:00",
+        "close": "17:00"
+      },
+      "6": {
+        "open": "11:00",
+        "close": "17:00"
+      }
+    },
+    "noteOnClosure": "店休：依粉專公告",
+    "extraNote": "",
+    "irregularClosure": true
+  },
+  {
+    "id": "s54",
+    "city": "嘉義市",
+    "name": "往前咖啡製作所",
+    "address": "嘉義市東區興中街205號",
+    "phone": "05-2750600",
+    "fb": "https://www.facebook.com/FORWARD.ROASTERS.TW/",
+    "ig": "https://www.instagram.com/forward_roasters/",
+    "mapUrl": "https://www.google.com/maps/place/%E5%BE%80%E5%89%8D%E5%92%96%E5%95%A1%E8%A3%BD%E4%BD%9C%E6%89%80+%2F+Forward+roasters/@23.4841147,120.4496869,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9432e6b4a153:0xed63b4573587582a!8m2!3d23.4841147!4d120.4496869!16s%2Fg%2F11bzt04c5r?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4841147,
+    "lng": 120.4496869,
+    "tags": [
+      "鐵工廠改建",
+      "工業風",
+      "濃縮",
+      "手沖"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "1": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "2": null,
+      "3": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "4": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "5": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "6": {
+        "open": "09:30",
+        "close": "21:00"
+      }
+    },
+    "noteOnClosure": "公休：週二",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s55",
+    "city": "嘉義市",
+    "name": "KaKaLove Cafe",
+    "address": "嘉義市西區博愛路二段421號",
+    "phone": "05-2359939",
+    "fb": "https://www.facebook.com/KaKaLoveCafe/",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/KaKaLove+Cafe(%E5%85%A7%E7%94%A8%E7%87%9F%E6%A5%AD%E6%99%82%E9%96%9310:00~18:00%EF%BC%8C%E5%85%A7%E7%94%A8%E9%80%B1%E4%B8%89%E5%85%AC%E4%BC%91)/@23.4741204,120.4333647,17z/data=!3m1!4b1!4m6!3m5!1s0x346e969d70335bc1:0x8a747e26770960ef!8m2!3d23.4741204!4d120.4333647!16s%2Fg%2F11c2qv4b_r?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4741204,
+    "lng": 120.4333647,
+    "tags": [
+      "自烘"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "3": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "4": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "10:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "無內用桌椅(以販售豆為主)",
+    "irregularClosure": true
+  },
+  {
+    "id": "s56",
+    "city": "嘉義市",
+    "name": "老窩咖啡 嘉義興雅店",
+    "address": "嘉義市西區興雅路78號",
+    "phone": "05-2330204",
+    "fb": "https://www.facebook.com/p/%E8%80%81%E7%AA%A9%E5%92%96%E5%95%A1-%E5%98%89%E7%BE%A9%E8%88%88%E9%9B%85%E5%BA%97-Laoo-Coffee-Xinya-Chiayi-Shop-61562408925252/",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E8%80%81%E7%AA%A9%E5%92%96%E5%95%A1+%E5%98%89%E7%BE%A9%E8%88%88%E9%9B%85%E5%BA%97+-+%E5%98%89%E7%BE%A9+%E8%A5%BF%E5%8D%80+%E5%92%96%E5%95%A1%E5%BA%97%E6%8E%A8%E8%96%A6+%E5%84%AA%E8%B3%AA%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E9%A6%96%E9%81%B8+%E7%B2%BE%E5%93%81%E6%89%8B%E6%B2%96%E5%92%96%E5%95%A1%E5%A5%BD%E8%A9%95+%E6%89%8B%E6%8B%BF%E9%AC%86%E9%A4%85+%E5%BF%85%E5%90%83%E5%8E%9A%E7%83%A4%E5%9C%9F%E5%8F%B8+%E4%BA%BA%E6%B0%A3%E7%B6%B2%E7%BE%8E%E4%B8%8B%E5%8D%88%E8%8C%B6+%E7%86%B1%E9%96%80%E7%94%9C%E9%BB%9E+%E8%81%9A%E9%A4%90%E8%81%9A%E6%9C%83+%E5%96%AE%E5%93%81%E5%92%96%E5%95%A1%E8%B1%86%E5%B0%88%E8%B3%A3+%E9%AB%98CP%E5%80%BC%E8%80%B3%E6%8E%9B%E5%92%96%E5%95%A1+PTT+Dcard/@23.4789913,120.4492669,13z/data=!4m6!3m5!1s0x346e970011a852f3:0x7982c7d96f50e139!8m2!3d23.4829326!4d120.4330275!16s%2Fg%2F11lnhswcdl?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4789913,
+    "lng": 120.4492669,
+    "tags": [
+      "連鎖",
+      "歐風裝潢"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "1": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "2": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "3": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "4": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "5": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "6": {
+        "open": "09:00",
+        "close": "17:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "",
+    "irregularClosure": true
+  },
+  {
+    "id": "s57",
+    "city": "嘉義市",
+    "name": "Hit Cat Café 打貓咖啡",
+    "address": "嘉義市東區共和路191巷3號(檜意森活村T22A)",
+    "phone": "05-2787987",
+    "fb": "https://www.facebook.com/Hitcatcafe/",
+    "ig": "https://www.instagram.com/hitcatcafe/",
+    "mapUrl": "https://www.google.com/maps/place/Hit+Cat+Caf%C3%A9+%E6%89%93%E8%B2%93%E5%92%96%E5%95%A1/@23.4853409,120.4440836,15z/data=!3m1!4b1!4m6!3m5!1s0x346e9596ba55674d:0x8fa79bc5ee3786eb!8m2!3d23.4853216!4d120.4543834!16s%2Fg%2F11kpntklt7?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4853409,
+    "lng": 120.4440836,
+    "tags": [
+      "濃縮特調"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:00",
+        "close": "17:30"
+      },
+      "1": {
+        "open": "10:00",
+        "close": "17:30"
+      },
+      "2": {
+        "open": "10:00",
+        "close": "17:30"
+      },
+      "3": {
+        "open": "10:00",
+        "close": "17:30"
+      },
+      "4": {
+        "open": "10:00",
+        "close": "17:30"
+      },
+      "5": {
+        "open": "10:00",
+        "close": "17:30"
+      },
+      "6": {
+        "open": "10:00",
+        "close": "17:30"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "",
+    "irregularClosure": true
+  },
+  {
+    "id": "s58",
+    "city": "嘉義市",
+    "name": "解圖咖啡",
+    "address": "嘉義市東區芳草里宣信街64號",
+    "phone": "0982-330-223",
+    "fb": "https://www.facebook.com/p/%E8%A7%A3%E5%9C%96%E5%92%96%E5%95%A1-100070959435537/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E8%A7%A3%E5%9C%96%E5%92%96%E5%95%A1+-%E6%89%8B%E6%B2%96%E5%92%96%E5%95%A1%EF%BC%86%E6%89%8B%E6%8F%89%E9%BA%B5%E5%8C%85%EF%BC%86%E6%89%8B%E4%BD%9C%E8%9B%8B%E7%B3%95%EF%BC%86%E6%89%8B%E5%B7%A5%E9%A4%85%E4%B9%BE%EF%BC%86%E4%B8%8B%E5%8D%88%E8%8C%B6%26%E8%BC%95%E9%A3%9F/@23.4811498,120.4424293,15z/data=!4m7!3m6!1s0x346e95e64f0f74b5:0x31b98da9d2b469bb!8m2!3d23.4654166!4d120.4636877!10e9!16s%2Fg%2F11p5hkjrn9?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4811498,
+    "lng": 120.4424293,
+    "tags": [
+      "手沖",
+      "手揉麵包",
+      "充電辦公",
+      "小農合作"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "3": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "4": null,
+      "5": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "09:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "公休：週四",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s59",
+    "city": "嘉義市",
+    "name": "秘書店 Meet store",
+    "address": "嘉義市東區中山路201號3樓",
+    "phone": "05-2288808",
+    "fb": "https://www.facebook.com/meetstorebymimicocafe",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E7%A7%98%E6%9B%B8%E5%BA%97+Meet+store/@23.4811305,120.4527291,17z/data=!3m2!4b1!5s0x346e94338b76e081:0xfd8ecfb5dc53a27!4m6!3m5!1s0x346e95edc5a11785:0xc559acef1e818b5c!8m2!3d23.4811305!4d120.4527291!16s%2Fg%2F11pbcqs703?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4811305,
+    "lng": 120.4527291,
+    "tags": [
+      "計時制閱讀空間",
+      "充電辦公"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "1": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "2": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "3": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "4": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "5": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "6": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "",
+    "irregularClosure": true
+  },
+  {
+    "id": "s60",
+    "city": "嘉義市",
+    "name": "BES coffee",
+    "address": "嘉義市西區長榮街278號",
+    "phone": "0909-712080",
+    "fb": "https://www.facebook.com/BLUES-%E8%97%8D%E8%AA%BF%E5%92%96%E5%95%A1-1537216536585676",
+    "ig": "https://www.instagram.com/bes.t.c278/",
+    "mapUrl": "https://www.google.com/maps/place/BES+coffee/@23.4828878,120.4469231,17z/data=!3m1!4b1!4m6!3m5!1s0x346e942d8f3593cb:0x9418fd71ba1111af!8m2!3d23.4828878!4d120.4469231!16s%2Fg%2F11d_7vcx_1?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4828878,
+    "lng": 120.4469231,
+    "tags": [
+      "日式烤飯糰"
+    ],
+    "hoursByWeekday": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": {
+        "open": "12:00",
+        "close": "17:30"
+      },
+      "6": null
+    },
+    "noteOnClosure": "公休：週日、週一、週二、週三、週四、週六",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s61",
+    "city": "嘉義市",
+    "name": "餘生咖啡館",
+    "address": "嘉義市東區興中街145號",
+    "phone": "0933-261-549",
+    "fb": "https://www.facebook.com/nowandforevercafe/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E9%A4%98%E7%94%9F%E5%92%96%E5%95%A1%E9%A4%A8/@23.4807845,120.4508833,17z/data=!3m1!4b1!4m6!3m5!1s0x346e95a393da5207:0x55ad227417543358!8m2!3d23.4807845!4d120.4508833!16s%2Fg%2F11kq3s2952?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4807845,
+    "lng": 120.4508833,
+    "tags": [],
+    "hoursByWeekday": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "6": null
+    },
+    "noteOnClosure": "公休：週日、週一、週二、週三、週四、週六",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s62",
+    "city": "嘉義市",
+    "name": "融合度咖啡館",
+    "address": "嘉義市東區中山路223號",
+    "phone": "05-2245033",
+    "fb": "https://www.facebook.com/harmonycofee/?locale=zh_TW",
+    "ig": "https://www.instagram.com/ccandylin/",
+    "mapUrl": "https://www.google.com/maps/place/%E8%9E%8D%E5%90%88%E5%BA%A6%E5%92%96%E5%95%A1%E9%A4%A8/@23.4808985,120.4521097,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9433ec639ed5:0x963b8a976206d093!8m2!3d23.4808985!4d120.4521097!16s%2Fg%2F12qg7tkk_?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4808985,
+    "lng": 120.4521097,
+    "tags": [
+      "自家",
+      "老店"
+    ],
+    "hoursByWeekday": {
+      "0": null,
+      "1": {
+        "open": "08:30",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "08:30",
+        "close": "18:00"
+      },
+      "3": {
+        "open": "08:30",
+        "close": "18:00"
+      },
+      "4": {
+        "open": "08:30",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "08:30",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "08:30",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "公休：週日",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s63",
+    "city": "嘉義市",
+    "name": "暮森咖啡",
+    "address": "嘉義市興業東路115巷12號",
+    "phone": "05-2161538",
+    "fb": "https://www.facebook.com/Musencoffee/",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E5%BF%83%E6%99%B4%E5%92%96%E5%95%A1/data=!4m2!3m1!1s0x0:0xda70f8ba3c744db6?sa=X&ved=1t:2428&ictx=111",
+    "lat": null,
+    "lng": null,
+    "tags": [
+      "健康餐",
+      "塔吉鍋"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "1": null,
+      "2": null,
+      "3": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "4": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "5": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "6": {
+        "open": "11:00",
+        "close": "21:00"
+      }
+    },
+    "noteOnClosure": "公休：週一、週二",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s64",
+    "city": "嘉義市",
+    "name": "青橙坡上 珈琲店",
+    "address": "嘉義市東區大業街106巷39號",
+    "phone": "05-2258028",
+    "fb": "https://www.facebook.com/aomikancafe/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E9%9D%92%E6%A9%99%E5%9D%A1%E4%B8%8A+%E7%8F%88%E7%90%B2%E5%BA%97%EF%BD%9C%E6%97%A5%E6%9C%AC%E9%BB%9E%E5%BF%83.+%E6%89%8B%E6%B2%96%E5%92%96%E5%95%A1.+%E5%B0%88%E5%A3%B2+%EF%BD%9C%E3%80%88+%E6%9D%A5%E5%BA%97%E8%AB%8B%E5%85%88%E7%9C%8B%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85+%E3%80%89/@23.4633805,120.4526088,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9540dad5cec3:0xc4c01e3bc106dcd0!8m2!3d23.4633805!4d120.4526088!16s%2Fg%2F11jdjps1z9?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4633805,
+    "lng": 120.4526088,
+    "tags": [
+      "川式極淺焙手沖",
+      "日式烤糰子"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "12:00",
+        "close": "17:40"
+      },
+      "1": {
+        "open": "12:00",
+        "close": "17:40"
+      },
+      "2": {
+        "open": "12:00",
+        "close": "17:40"
+      },
+      "3": {
+        "open": "12:00",
+        "close": "17:40"
+      },
+      "4": {
+        "open": "12:00",
+        "close": "17:40"
+      },
+      "5": null,
+      "6": {
+        "open": "12:00",
+        "close": "17:40"
+      }
+    },
+    "noteOnClosure": "公休：週五",
+    "extraNote": "規則較多要留意",
+    "irregularClosure": false
+  },
+  {
+    "id": "s65",
+    "city": "嘉義市",
+    "name": "心晴咖啡",
+    "address": "嘉義市東區中央里成仁街155巷7號",
+    "phone": "0911-577108",
+    "fb": "https://www.facebook.com/p/%E5%BF%83%E6%99%B4%E5%92%96%E5%95%A1-100091617888188/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E5%BF%83%E6%99%B4%E5%92%96%E5%95%A1/data=!4m2!3m1!1s0x0:0xda70f8ba3c744db6?sa=X&ved=1t:2428&ictx=111",
+    "lat": null,
+    "lng": null,
+    "tags": [],
+    "hoursByWeekday": {
+      "0": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "1": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "2": null,
+      "3": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "4": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "5": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "6": null
+    },
+    "noteOnClosure": "公休：週二、週六",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s66",
+    "city": "嘉義市",
+    "name": "曉咖啡 In Chiayi",
+    "address": "嘉義市興業東路138號",
+    "phone": "05-2272873",
+    "fb": "https://www.facebook.com/akatsukicoffee/",
+    "ig": "https://www.instagram.com/akatsukicoffee/",
+    "mapUrl": "https://www.google.com/maps/place/%E6%9B%89%E5%92%96%E5%95%A1+In+Chiayi/@23.4694304,120.4573589,17z/data=!3m1!4b1!4m6!3m5!1s0x346e951980cc5ef7:0x48ffd74ffd5d617a!8m2!3d23.4694304!4d120.4573589!16s%2Fg%2F11sbfwm2tv?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4694304,
+    "lng": 120.4573589,
+    "tags": [
+      "老宅",
+      "不限時"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "14:00",
+        "close": "22:00"
+      },
+      "1": {
+        "open": "14:00",
+        "close": "22:00"
+      },
+      "2": {
+        "open": "14:00",
+        "close": "22:00"
+      },
+      "3": null,
+      "4": {
+        "open": "14:00",
+        "close": "22:00"
+      },
+      "5": {
+        "open": "14:00",
+        "close": "22:00"
+      },
+      "6": {
+        "open": "14:00",
+        "close": "22:00"
+      }
+    },
+    "noteOnClosure": "公休：週三",
+    "extraNote": "低消一杯飲品",
+    "irregularClosure": false
+  },
+  {
+    "id": "s67",
+    "city": "嘉義市",
+    "name": "仨丘珈琲 Sachuu cafe",
+    "address": "嘉義市西區杭州三街45號",
+    "phone": "05-2862112",
+    "fb": "https://www.facebook.com/SACHUUCAFE/",
+    "ig": "https://www.instagram.com/sachuucafe/",
+    "mapUrl": "https://www.google.com/maps/place/%E4%BB%A8%E4%B8%98%E7%8F%88%E7%90%B2+Sachuu+cafe/@23.4666224,120.4444251,17z/data=!3m1!4b1!4m6!3m5!1s0x346e951aa61109b5:0x154dc40cb117cc29!8m2!3d23.4666224!4d120.4444251!16s%2Fg%2F11pcm9qgqj?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4666224,
+    "lng": 120.4444251,
+    "tags": [
+      "泰式料理"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "1": null,
+      "2": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "3": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "4": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "5": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "6": {
+        "open": "09:00",
+        "close": "17:00"
+      }
+    },
+    "noteOnClosure": "公休：週一",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s68",
+    "city": "嘉義市",
+    "name": "二吉山咖啡 273CLUB",
+    "address": "嘉義市東區王田里民權路28號1樓",
+    "phone": "05-2732797",
+    "fb": "https://www.facebook.com/273club.com.tw/",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E4%BA%8C%E5%90%89%E5%B1%B1%E5%92%96%E5%95%A1+273CLUB/@23.4844415,120.4648714,17z/data=!3m1!4b1!4m6!3m5!1s0x346e95004dd8658d:0xf712ea18138991af!8m2!3d23.4844415!4d120.4648714!16s%2Fg%2F11yfz4rdwm?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4844415,
+    "lng": 120.4648714,
+    "tags": [],
+    "hoursByWeekday": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null
+    },
+    "noteOnClosure": "營業時間請洽 FB/IG 或 Google 地圖",
+    "extraNote": "",
+    "irregularClosure": true
+  },
+  {
+    "id": "s69",
+    "city": "嘉義市",
+    "name": "賣私咖啡",
+    "address": "嘉義市東區吳鳳南路15號",
+    "phone": "0922-272227",
+    "fb": "https://www.facebook.com/mys.coffeeroast",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E8%B3%A3%E7%A7%81%E5%92%96%E5%95%A1/@23.4735331,120.454156,17z/data=!3m1!4b1!4m6!3m5!1s0x346e944af0af5a2b:0x3ffb47b6058fc6ab!8m2!3d23.4735331!4d120.454156!16s%2Fg%2F1w453ccs?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4735331,
+    "lng": 120.454156,
+    "tags": [
+      "自烘",
+      "老店"
+    ],
+    "hoursByWeekday": {
+      "0": null,
+      "1": {
+        "open": "14:00",
+        "close": "21:00"
+      },
+      "2": {
+        "open": "14:00",
+        "close": "21:00"
+      },
+      "3": {
+        "open": "14:00",
+        "close": "21:00"
+      },
+      "4": {
+        "open": "14:00",
+        "close": "21:00"
+      },
+      "5": {
+        "open": "14:00",
+        "close": "21:00"
+      },
+      "6": {
+        "open": "14:00",
+        "close": "21:00"
+      }
+    },
+    "noteOnClosure": "公休：週日",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s70",
+    "city": "嘉義市",
+    "name": "泊好時咖啡",
+    "address": "嘉義市東區中山里民權路220號",
+    "phone": "0932-338300",
+    "fb": "https://www.facebook.com/p/%E6%B3%8A%E5%A5%BD%E6%99%82%E5%92%96%E5%95%A1-61573870227212/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E6%B3%8A%E5%A5%BD%E6%99%82%E5%92%96%E5%95%A1/@23.4831187,120.4540265,17z/data=!3m1!4b1!4m6!3m5!1s0x346e95f97fd4e617:0xc0d618c5cb912a38!8m2!3d23.4831187!4d120.4540265!16s%2Fg%2F11xt9dchkt?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4831187,
+    "lng": 120.4540265,
+    "tags": [],
+    "hoursByWeekday": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null
+    },
+    "noteOnClosure": "營業時間請洽 FB/IG 或 Google 地圖",
+    "extraNote": "",
+    "irregularClosure": true
+  },
+  {
+    "id": "s71",
+    "city": "嘉義市",
+    "name": "幸福原在咖啡",
+    "address": "嘉義市東區太平里維新路195號",
+    "phone": "05-2752737",
+    "fb": "https://www.facebook.com/people/%E5%B9%B8%E7%A6%8F%E5%8E%9F%E5%9C%A8%E5%92%96%E5%95%A1/100063876880767/?locale=zh_HK#",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E5%B9%B8%E7%A6%8F%E5%8E%9F%E5%9C%A8%E5%92%96%E5%95%A1/@23.4862229,120.4579174,17z/data=!3m1!4b1!4m6!3m5!1s0x346e95caa57f20a1:0xde714424cbc80e4!8m2!3d23.4862229!4d120.4579174!16s%2Fg%2F11byxgyrff?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4862229,
+    "lng": 120.4579174,
+    "tags": [
+      "車庫改造咖啡廳",
+      "老店"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "3": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "4": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "10:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "",
+    "irregularClosure": true
+  },
+  {
+    "id": "s72",
+    "city": "嘉義市",
+    "name": "Evie's Cafe' 伊米咖啡",
+    "address": "嘉義市東區共和路418號",
+    "phone": "05-2771239",
+    "fb": "https://www.facebook.com/eviescafe88/?locale=zh_TW",
+    "ig": "https://www.instagram.com/eviescafe88/",
+    "mapUrl": "https://www.google.com/maps/place/Evie's+Cafe'+%E4%BC%8A%E7%B1%B3%E5%92%96%E5%95%A1%EF%BD%9C%E6%BF%BE%E6%8E%9B%E5%92%96%E5%95%A1%26%E5%92%96%E5%95%A1%E8%B1%86%E5%B0%88%E8%B3%A3%EF%BD%9C%E5%86%B0%E6%BB%B4%E5%92%96%E5%95%A1%EF%BD%9C%E6%8F%90%E6%8B%89%E7%B1%B3%E8%98%87%EF%BD%9C%E5%8C%97%E9%96%80%E9%A9%9B/@23.4872885,120.4549857,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9430b14f631d:0x5148259d6f6cc44c!8m2!3d23.4872885!4d120.4549857!16s%2Fg%2F11c6s3_jks?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4872885,
+    "lng": 120.4549857,
+    "tags": [
+      "自烘"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "12:30",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "12:30",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "12:30",
+        "close": "18:00"
+      },
+      "3": {
+        "open": "12:30",
+        "close": "18:00"
+      },
+      "4": null,
+      "5": {
+        "open": "12:30",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "12:30",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "公休：週四",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s73",
+    "city": "嘉義市",
+    "name": "簡單咖啡",
+    "address": "嘉義市東區中山里民權路55號",
+    "phone": "05-2765750",
+    "fb": "https://www.facebook.com/cafesimplecafe/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E7%B0%A1%E5%96%AE%E5%92%96%E5%95%A1/@23.48400144,120.4630701,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgID9vrGH-AE!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgrass-cs%2FACvplmMWSzwltEEzyFIf7fuViLdoGFxrpRbTgjHBmZPAv1BizTVoHxasXmCUYuZezSrJp2Cwg9lWjN4EvxwU52i4fiDdueSXLdJY1WrFNyKqM2v38Op_twKiul5s8Y6jGMYFoG5nwzQvlQ%3Dk-no!7i4032!8i2268!4m8!3m7!1s0x346e95b495539ecb:0x4dea7b07ee292de5!8m2!3d23.4840014!4d120.4630701!9m1!1b1!16s%2Fg%2F11cmsb23x7?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.48400144,
+    "lng": 120.4630701,
+    "tags": [
+      "超便宜"
+    ],
+    "hoursByWeekday": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null
+    },
+    "noteOnClosure": "營業時間請洽 FB/IG 或 Google 地圖",
+    "extraNote": "",
+    "irregularClosure": true
+  },
+  {
+    "id": "s74",
+    "city": "嘉義市",
+    "name": "玖CAFÉ",
+    "address": "嘉義市興業東路387號",
+    "phone": "05-2162626",
+    "fb": "https://www.facebook.com/jioucafe/?locale=zh_TW",
+    "ig": "https://www.instagram.com/jiou_cafe/",
+    "mapUrl": "https://www.google.com/maps/place/%E7%8E%96CAF%C3%89/@23.4698272,120.4585252,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9438838d001b:0x91ff993ffeee3f69!8m2!3d23.4698272!4d120.4585252!16s%2Fg%2F11c1nwhx96?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4698272,
+    "lng": 120.4585252,
+    "tags": [
+      "手沖",
+      "氮氣咖啡",
+      "濃縮單品",
+      "玻璃花房"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "13:00",
+        "close": "22:00"
+      },
+      "1": {
+        "open": "13:00",
+        "close": "22:00"
+      },
+      "2": {
+        "open": "13:00",
+        "close": "22:00"
+      },
+      "3": {
+        "open": "13:00",
+        "close": "22:00"
+      },
+      "4": {
+        "open": "13:00",
+        "close": "22:00"
+      },
+      "5": {
+        "open": "13:00",
+        "close": "22:00"
+      },
+      "6": {
+        "open": "13:00",
+        "close": "23:00"
+      }
+    },
+    "noteOnClosure": "",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s75",
+    "city": "嘉義市",
+    "name": "提娜多咖啡",
+    "address": "嘉義市東區公明路167號",
+    "phone": "05-2287787",
+    "fb": "https://www.facebook.com/p/%E6%8F%90%E5%A8%9C%E5%A4%9A%E5%92%96%E5%95%A1-100063638936828/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E6%8F%90%E5%A8%9C%E5%A4%9A%E5%92%96%E5%95%A1%EF%BC%88%E6%97%A9%E5%8D%88%E9%A4%90%2F%E9%A3%AF%2F%E9%BA%B5%EF%BC%89/@23.4799528,120.4548746,17z/data=!4m8!3m7!1s0x346e94343b818099:0xb197aff21f53ad3c!8m2!3d23.4799528!4d120.4548746!9m1!1b1!16s%2Fg%2F11f3jvlwbq?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4799528,
+    "lng": 120.4548746,
+    "tags": [
+      "手沖",
+      "東市場旁老宅",
+      "還可以美容美髮"
+    ],
+    "hoursByWeekday": {
+      "0": null,
+      "1": null,
+      "2": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "3": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "4": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "5": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "6": {
+        "open": "08:00",
+        "close": "20:00"
+      }
+    },
+    "noteOnClosure": "公休：週日、週一",
+    "extraNote": "有插座",
+    "irregularClosure": false
+  },
+  {
+    "id": "s76",
+    "city": "嘉義市",
+    "name": "橘子咖啡",
+    "address": "嘉義市東區朝陽里朝陽街30號",
+    "phone": "05-2780885",
+    "fb": "",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E6%A9%98%E5%AD%90%E5%92%96%E5%95%A1/@23.4799528,120.4548746,15z/data=!4m12!1m2!2m1!1z5qmY5a2Q5ZKW5ZWh!3m8!1s0x346e952ccc460527:0x7925f72a1595506a!8m2!3d23.4759616!4d120.4607539!9m1!1b1!15sCgzmqZjlrZDlkpbllaFaDyIN5qmY5a2QIOWSluWVoZIBBGNhZmXgAQA!16s%2Fg%2F11g19q1lld?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4799528,
+    "lng": 120.4548746,
+    "tags": [
+      "虹吸",
+      "冰滴",
+      "超便宜"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "1": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "2": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "3": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "4": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "5": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "6": {
+        "open": "07:00",
+        "close": "21:30"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "",
+    "irregularClosure": true
+  },
+  {
+    "id": "s77",
+    "city": "嘉義市",
+    "name": "花磚咖啡。淺嚐館",
+    "address": "嘉義市東區公明路59-1號",
+    "phone": "05-2777363",
+    "fb": "https://www.facebook.com/p/%E8%8A%B1%E7%A3%9A%E5%92%96%E5%95%A1%E6%B7%BA%E5%9A%90%E9%A4%A8-100063633234922/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E8%8A%B1%E7%A3%9A%E5%92%96%E5%95%A1%E3%80%82%E6%B7%BA%E5%9A%90%E9%A4%A8/@23.480453,120.459206,17z/data=!3m1!4b1!4m6!3m5!1s0x346e944a78dd2991:0x7b93aa9b283eaa8f!8m2!3d23.480453!4d120.459206!16s%2Fg%2F11dfj0_7mt?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.480453,
+    "lng": 120.459206,
+    "tags": [
+      "手沖",
+      "美式"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "1": null,
+      "2": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "3": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "4": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "10:00",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "公休：週一",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s78",
+    "city": "嘉義市",
+    "name": "古典咖啡",
+    "address": "嘉義市東區東川里啟明路58號",
+    "phone": "05-2774323",
+    "fb": "",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E5%8F%A4%E5%85%B8%E5%92%96%E5%95%A1/@23.4773897,120.4624776,17z/data=!3m1!4b1!4m6!3m5!1s0x14063429d68f76f1:0xfb34242b5753e661!8m2!3d23.4773897!4d120.4624776!16s%2Fg%2F11b6s02bcr?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4773897,
+    "lng": 120.4624776,
+    "tags": [],
+    "hoursByWeekday": {
+      "0": {
+        "open": "08:30",
+        "close": "18:00"
+      },
+      "1": {
+        "open": "08:30",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "08:30",
+        "close": "18:00"
+      },
+      "3": {
+        "open": "08:30",
+        "close": "18:00"
+      },
+      "4": {
+        "open": "08:30",
+        "close": "18:00"
+      },
+      "5": {
+        "open": "08:30",
+        "close": "18:00"
+      },
+      "6": {
+        "open": "08:30",
+        "close": "18:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "",
+    "irregularClosure": true
+  },
+  {
+    "id": "s79",
+    "city": "嘉義市",
+    "name": "AMON • 咖啡外帶",
+    "address": "嘉義市市宅街22巷5弄5號",
+    "phone": "05-2222670",
+    "fb": "https://www.facebook.com/AMONCafe666/?locale=zh_TW",
+    "ig": "https://www.instagram.com/amon666esp/",
+    "mapUrl": "https://www.google.com/maps/place/AMON+%E2%80%A2+%E5%92%96%E5%95%A1%E5%A4%96%E5%B8%B6/@23.4740321,120.4599099,17z/data=!3m1!4b1!4m6!3m5!1s0x346e94481cd4f8a1:0xec4c035c0d1dfd50!8m2!3d23.4740321!4d120.4599099!16s%2Fg%2F11cm_gv0mf?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4740321,
+    "lng": 120.4599099,
+    "tags": [
+      "外帶"
+    ],
+    "hoursByWeekday": {
+      "0": null,
+      "1": null,
+      "2": {
+        "open": "09:30",
+        "close": "16:30"
+      },
+      "3": {
+        "open": "09:30",
+        "close": "16:30"
+      },
+      "4": {
+        "open": "09:30",
+        "close": "16:30"
+      },
+      "5": {
+        "open": "09:30",
+        "close": "16:30"
+      },
+      "6": {
+        "open": "09:30",
+        "close": "16:30"
+      }
+    },
+    "noteOnClosure": "公休：週日、週一",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s80",
+    "city": "嘉義市",
+    "name": "正方芳Cafe",
+    "address": "嘉義市東區林森東路103號",
+    "phone": "05-2713103",
+    "fb": "https://www.facebook.com/PositiveFengFeng",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E6%AD%A3%E6%96%B9%E8%8A%B3Cafe/@23.4869476,120.4565519,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9553d69ad68f:0xfccfc8af5d677928!8m2!3d23.4869476!4d120.4565519!16s%2Fg%2F11h1k216ft?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4869476,
+    "lng": 120.4565519,
+    "tags": [
+      "手沖",
+      "伴手禮"
+    ],
+    "hoursByWeekday": {
+      "0": null,
+      "1": {
+        "open": "10:30",
+        "close": "18:00"
+      },
+      "2": {
+        "open": "10:30",
+        "close": "18:00"
+      },
+      "3": {
+        "open": "10:30",
+        "close": "18:00"
+      },
+      "4": {
+        "open": "10:30",
+        "close": "18:00"
+      },
+      "5": null,
+      "6": null
+    },
+    "noteOnClosure": "公休：週日、週五、週六",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s81",
+    "city": "嘉義市",
+    "name": "好久不見的咖啡店-瑪德蓮專櫃 Madeleines Counter",
+    "address": "嘉義市東區立德街83巷15號",
+    "phone": "0911-000370",
+    "fb": "https://www.facebook.com/p/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A6%8B%E7%9A%84%E5%92%96%E5%95%A1%E5%BA%97-%E7%91%AA%E5%BE%B7%E8%93%AE%E5%B0%88%E6%AB%83Madeleines-Counter-100063576416208/",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A6%8B%E7%9A%84%E5%92%96%E5%95%A1%E5%BA%97-%E7%91%AA%E5%BE%B7%E8%93%AE%E5%B0%88%E6%AB%83+Madeleines+Counter/@23.474816,120.4694205,17z/data=!3m1!4b1!4m6!3m5!1s0x346e956b9a37b7ab:0x689457495ff50a78!8m2!3d23.474816!4d120.4694205!16s%2Fg%2F11n0tsgpg8?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.474816,
+    "lng": 120.4694205,
+    "tags": [
+      "瑪德蓮",
+      "現烤司康"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "10:00",
+        "close": "17:00"
+      },
+      "1": null,
+      "2": {
+        "open": "10:00",
+        "close": "17:00"
+      },
+      "3": {
+        "open": "10:00",
+        "close": "17:00"
+      },
+      "4": {
+        "open": "10:00",
+        "close": "17:00"
+      },
+      "5": {
+        "open": "10:00",
+        "close": "17:00"
+      },
+      "6": {
+        "open": "10:00",
+        "close": "17:00"
+      }
+    },
+    "noteOnClosure": "公休：週一",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s82",
+    "city": "嘉義市",
+    "name": "一支杉咖啡坊",
+    "address": "嘉義市西區垂楊里新建街10號",
+    "phone": "05-2365324",
+    "fb": "",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E4%B8%80%E6%94%AF%E6%9D%89%E5%92%96%E5%95%A1%E5%9D%8A/@23.4686238,120.4384416,16.75z/data=!4m8!3m7!1s0x346e9421b292e5ef:0x280b0dd16a66c9a5!8m2!3d23.4686033!4d120.4388253!9m1!1b1!16s%2Fg%2F1tk60vxs?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4686238,
+    "lng": 120.4384416,
+    "tags": [
+      "老店"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "08:30",
+        "close": "22:00"
+      },
+      "1": null,
+      "2": {
+        "open": "08:30",
+        "close": "22:00"
+      },
+      "3": {
+        "open": "08:30",
+        "close": "22:00"
+      },
+      "4": {
+        "open": "08:30",
+        "close": "22:00"
+      },
+      "5": {
+        "open": "08:30",
+        "close": "22:00"
+      },
+      "6": {
+        "open": "08:30",
+        "close": "22:00"
+      }
+    },
+    "noteOnClosure": "公休：週一",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s83",
+    "city": "嘉義市",
+    "name": "捨得咖啡 Sirder Coffee",
+    "address": "嘉義市西區西平里大同路106號",
+    "phone": "0912-128477",
+    "fb": "",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E6%8D%A8%E5%BE%97%E5%92%96%E5%95%A1+Sirder+Coffee/@23.4760708,120.4314196,17z/data=!3m1!4b1!4m6!3m5!1s0x346e97b7a227b00b:0x7518d8b66a7d2ab7!8m2!3d23.4760708!4d120.4314196!16s%2Fg%2F11p5ql1kx9?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4760708,
+    "lng": 120.4314196,
+    "tags": [],
+    "hoursByWeekday": {
+      "0": null,
+      "1": null,
+      "2": {
+        "open": "10:00",
+        "close": "17:00"
+      },
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null
+    },
+    "noteOnClosure": "公休：週日、週一、週三、週四、週五、週六",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s84",
+    "city": "嘉義市",
+    "name": "籃咖啡",
+    "address": "嘉義市東區民族路127號",
+    "phone": "05-2761186",
+    "fb": "https://www.facebook.com/LanCoffee/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E7%B1%83%E5%92%96%E5%95%A1/@23.4766202,120.4580687,17z/data=!3m1!4b1!4m6!3m5!1s0x346e94363b2e8523:0x7954d0d853ed977e!8m2!3d23.4766202!4d120.4580687!16s%2Fg%2F11f2_rjtrs?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4766202,
+    "lng": 120.4580687,
+    "tags": [],
+    "hoursByWeekday": {
+      "0": {
+        "open": "14:00",
+        "close": "19:00"
+      },
+      "1": null,
+      "2": null,
+      "3": {
+        "open": "14:00",
+        "close": "19:00"
+      },
+      "4": {
+        "open": "14:00",
+        "close": "19:00"
+      },
+      "5": {
+        "open": "14:00",
+        "close": "19:00"
+      },
+      "6": {
+        "open": "14:00",
+        "close": "19:00"
+      }
+    },
+    "noteOnClosure": "公休：週一、週二",
+    "extraNote": "",
+    "irregularClosure": false
+  },
+  {
+    "id": "s85",
+    "city": "嘉義市",
+    "name": "俊咖啡自家烘焙",
+    "address": "嘉義市西區遠東街22-5號",
+    "phone": "0970-953-353",
+    "fb": "https://www.facebook.com/drinkkaffa.chiayi/",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E4%BF%8A%E5%92%96%E5%95%A1%E8%87%AA%E5%AE%B6%E7%83%98%E7%84%99/@23.4865018,120.4380847,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9428c9327e45:0xb318b30c2f25ebcd!8m2!3d23.4865018!4d120.4380847!16s%2Fg%2F11c0y26nr1?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.4865018,
+    "lng": 120.4380847,
+    "tags": [
+      "自烘"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "1": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "2": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "3": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "4": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "5": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "6": {
+        "open": "08:30",
+        "close": "19:00"
+      }
+    },
+    "noteOnClosure": "無固定公休，請以最新公告為準",
+    "extraNote": "",
+    "irregularClosure": true
+  },
+  {
+    "id": "s86",
+    "city": "嘉義市",
+    "name": "米樂迪咖啡黑膠唱片",
+    "address": "嘉義市彌陀路111號1F",
+    "phone": "",
+    "fb": "https://www.facebook.com/p/%E7%B1%B3%E6%A8%82%E8%BF%AA%E9%BB%91%E8%86%A0%E5%94%B1%E7%89%87%E5%92%96%E5%95%A1%E9%A4%A8-100057638463084/?locale=zh_TW",
+    "ig": "",
+    "mapUrl": "https://www.google.com/maps/place/%E7%B1%B3%E6%A8%82%E8%BF%AA%E5%92%96%E5%95%A1%E9%BB%91%E8%86%A0%E5%94%B1%E7%89%87/@23.466455,120.4668455,17z/data=!3m1!4b1!4m6!3m5!1s0x346e94447ae930d5:0x8674617f89e67d82!8m2!3d23.466455!4d120.4668455!16s%2Fg%2F11bwh4q13x?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 23.466455,
+    "lng": 120.4668455,
+    "tags": [
+      "黑膠唱片專賣",
+      "自烘",
+      "老店"
+    ],
+    "hoursByWeekday": {
+      "0": {
+        "open": "14:00",
+        "close": "22:00"
+      },
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": {
+        "open": "14:00",
+        "close": "22:00"
+      }
+    },
+    "noteOnClosure": "公休：週一、週二、週三、週四、週五",
+    "extraNote": "",
+    "irregularClosure": false
+  }
+]

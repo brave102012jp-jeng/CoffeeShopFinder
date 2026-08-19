@@ -1,0 +1,32 @@
+{
+  "_comment": "品飲紀錄表單的欄位設定。順序＝表單顯示順序。想加「粉水比」「濾杯」之類的新欄位，直接在 fields 陣列裡插入一筆物件即可，不用改 tasting-record-form.js。type 支援 text / select / radar-axis 三種（見下方說明），radar-axis 類型的欄位會自動同時變成雷達圖的一個軸（用 deriveRadarAxes() 取得），並自動搭配一組滑桿＋文字描述輸入框。",
+
+  "_typeGuide": {
+    "text": "單行文字輸入，需要 key / label，選填 placeholder",
+    "select": "下拉選單，需要 key / label / options（字串陣列），選填 default（預設選中值）",
+    "radar-axis": "0～max 的滑桿評分，同時會自動搭配一個文字描述輸入框（descKey 指定描述要存到哪個欄位），需要 key / label / max，選填 default（預設值，通常抓 max 的一半）、descKey、descPlaceholder"
+  },
+
+  "fields": [
+    { "key": "beanOrigin", "label": "豆名／產地", "type": "text", "placeholder": "例：衣索比亞 耶加雪菲" },
+    { "key": "process", "label": "處理法", "type": "text", "placeholder": "水洗／日曬／蜜處理" },
+    { "key": "roast", "label": "焙度", "type": "select", "options": ["極淺", "淺", "中淺", "中", "中深", "深"], "default": "中" },
+
+    { "key": "aroma", "label": "Aroma 香氣", "type": "radar-axis", "max": 10, "default": 5, "descKey": "aromaDesc", "descPlaceholder": "香氣描述" },
+    { "key": "body", "label": "Body 結構", "type": "radar-axis", "max": 10, "default": 5, "descKey": "bodyDesc", "descPlaceholder": "Body 描述" },
+    { "key": "bitterness", "label": "Bitterness 苦味", "type": "radar-axis", "max": 10, "default": 5, "descKey": "bitternessDesc", "descPlaceholder": "苦味描述" },
+    { "key": "acidity", "label": "Acidity 酸質", "type": "radar-axis", "max": 10, "default": 5, "descKey": "acidityDesc", "descPlaceholder": "酸質描述" },
+    { "key": "sweetness", "label": "Sweetness 甜感", "type": "radar-axis", "max": 10, "default": 5, "descKey": "sweetnessDesc", "descPlaceholder": "甜感描述" },
+    { "key": "aftertaste", "label": "Aftertaste 餘韻", "type": "radar-axis", "max": 10, "default": 5, "descKey": "aftertasteDesc", "descPlaceholder": "餘韻描述（清潔／複雜）" },
+
+    { "key": "liked", "label": "結論", "type": "select", "options": ["喜歡", "不喜歡"], "default": "喜歡" },
+    { "key": "conclusionDesc", "label": "結論描述", "type": "text", "placeholder": "喜歡／不喜歡的原因" }
+  ],
+
+  "_exampleFutureFields": [
+    "以後想加欄位的範例，複製其中一筆貼進上面 fields 陣列即可：",
+    { "key": "ratio", "label": "粉水比", "type": "text", "placeholder": "例：1:15" },
+    { "key": "dripper", "label": "濾杯", "type": "select", "options": ["V60", "Kalita", "Origami", "聰明濾杯", "其他"], "default": "V60" },
+    { "key": "waterTemp", "label": "水溫（°C）", "type": "text", "placeholder": "例：92" }
+  ]
+}
